@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "generationPrompt": "Use case: photorealistic-natural\nAsset type: one full-bleed website homepage hero photograph for Dizi Atlas, wide landscape approximately 16:9.\nPrimary request: An exceptionally art-directed, photorealistic cultural still life inside an old Jiangnan scholar's music studio at early morning. Artistic, literary, classical Chinese atmosphere, quiet and sophisticated.\nScene and composition: A dark aged elm desktop occupies the lower third. A Chinese transverse bamboo dizi rests diagonally on a small dark wood stand in the lower-right, with an aged thread-bound book with a blank cover and folded unbleached silk beneath it. Slender real bamboo leaves sit beside a wooden lattice window at the far right; beyond the window, a softly glowing misty garden is visible. Keep the left 50 percent dark, low-detail, uncluttered and suitable for a large white Chinese headline to be added later. Strong visible instrument and book interest on the right and lower centre. The photo itself must contain absolutely no lettering.\nStyle and light: Sophisticated editorial still-life photography, believable optics, quietly cinematic chiaroscuro. Muted deep forest-green and umber shadows, warm ivory early daylight. Fine tactile elm grain, silk fibres, weathered blank book cover and authentic natural bamboo. Rich tonal detail without crushed black, natural soft highlights, subtle depth of field.\nInstrument anatomy: The dizi is a plausible real Chinese transverse bamboo flute, a single straight cylindrical bamboo tube. Six round finger holes form a straight orderly row on the exposed side. Its left embouchure section can extend behind the folded silk so not all technical holes need to be displayed. No keys, strings, mouthpiece, extra finger-hole rows or fantasy holes.\nConstraints: One single wide photograph. No people, lettering, symbols, seals, calligraphy, logos, watermark or interface. No tea objects. No incense smoke, artificial glows or distressed overlays. No poster, frame, collage, illustration or mockup. Preserve an authentic classical Chinese studio and uncluttered dark left half.",
+  "finalEditPrompt": "Use case: precise-object-edit.\nThe supplied 1672-by-941 photograph is the edit target. Perform ONLY a tiny localized inpainting repair on the bamboo flute. Do not regenerate or redesign the scene.\nREMOVE exactly one hole: the leftmost LARGE oval finger hole centered at pixel x=1170, y=570 (70% from the left, 61% down). Fill this small oval seamlessly with continuous matching golden bamboo grain and the same highlight and curvature as its immediate surroundings. After repair this particular location must be unbroken solid bamboo, with no hole or dark oval.\nPRESERVE without change the next SIX large oval holes, centered approximately at (1213,584), (1255,598), (1298,613), (1343,629), (1387,646), (1435,663). These six must remain exactly where they are. Preserve the small membrane mark around (1128,545) and the separate blowhole around (955,505).\nEverything outside the removed hole and its tiny edge-blending area must remain unchanged: the complete flute, all other holes, bindings, stand, book, silk, desktop, wall, window, plant, garden, dark left negative space, lighting, color, composition, perspective and image dimensions. No new objects, no text, no symbols. This is one precise hole removal, not a broad flute correction.",
+  "sourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "visualQA": {
+    "finger_hole_count": 6,
+    "finger_hole_observation": "Exactly six large oval finger holes remain in the orderly row, at the six requested positions. The unwanted leftmost large hole around x1170,y570 was removed.",
+    "blowhole": "The isolated blowhole near x955,y505 remains visible.",
+    "membrane_mark": "The tiny membrane mark near x1128,y545 is no longer clearly discernible; it should not be claimed as visually verified.",
+    "scene": "The warm classical studio composition, dark left half for typography, diagonal flute and wood stand, book and silk, bamboo/window and garden remain visually intact. Minor generative texture differences are present.",
+    "postprocessing": "None. Exact generated output copied to workspace."
+  },
+  "outputs": [
+    {
+      "path": "public/images/editorial/classical-hero.webp",
+      "width": 1672,
+      "webpQuality": 86
+    },
+    {
+      "path": "public/images/editorial/classical-hero-960.webp",
+      "width": 960,
+      "webpQuality": 84
+    }
+  ],
+  "processing": "WebP conversion and proportional resizing only; no cropping or retouching"
+}

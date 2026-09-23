@@ -1,0 +1,60 @@
+{
+  "name": "chinese-dizi-next",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 8069",
+    "build": "next build --webpack && node scripts/finalize-pages.mjs",
+    "start": "node scripts/serve-pages.mjs",
+    "typecheck": "next typegen && tsc --noEmit",
+    "verify:data": "node scripts/verify-data.mjs",
+    "verify:routes": "node scripts/verify-routes.mjs",
+    "verify:worker-runtime": "node scripts/verify-worker-runtime.mjs",
+    "verify:artifacts": "node scripts/verify-static-artifacts.mjs",
+    "verify:worker-package": "node scripts/verify-worker-package.mjs",
+    "verify:module-size": "node scripts/verify-module-size.mjs",
+    "verify:images": "node scripts/verify-static-image-delivery.mjs",
+    "generate:artifacts": "node scripts/generate-static-artifacts.mjs",
+    "qa:clickthrough": "node scripts/qa-clickthrough.mjs",
+    "qa:screenshots": "node scripts/qa-screenshots.mjs",
+    "qa:a11y": "node scripts/qa-a11y.mjs",
+    "qa:production-routes": "node scripts/qa-production-routes.mjs",
+    "doctor": "npx react-doctor@latest",
+    "dev:sites": "vinext dev --host 127.0.0.1 --port 8069",
+    "build:sites": "vinext build",
+    "verify:pages": "node scripts/verify-pages.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.9",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "react-doctor": "^0.8.1",
+    "react-grab": "^0.1.48",
+    "react-scan": "^0.5.7",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  }
+}

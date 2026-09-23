@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-22T14:33:20.147Z",
+  "title": "Design System: 中國竹笛知識庫 / Dizi Atlas",
+  "extensions": {
+    "colorMeta": {
+      "chamber-paper": {"role":"neutral","displayName":"Homepage warm ivory","tonalRamp":["oklch(15% 0.0156 86.43)","oklch(25% 0.0156 86.43)","oklch(35% 0.0156 86.43)","oklch(45% 0.0156 86.43)","oklch(55% 0.0156 86.43)","oklch(65% 0.0156 86.43)","oklch(80% 0.0156 86.43)","oklch(95% 0.0156 86.43)"]},
+      "chamber-ink": {"role":"neutral","displayName":"Homepage reading ink","tonalRamp":["oklch(15% 0.0186 103.05)","oklch(25% 0.0186 103.05)","oklch(35% 0.0186 103.05)","oklch(45% 0.0186 103.05)","oklch(55% 0.0186 103.05)","oklch(65% 0.0186 103.05)","oklch(80% 0.0186 103.05)","oklch(95% 0.0186 103.05)"]},
+      "chamber-muted": {"role":"neutral","displayName":"Homepage secondary ink","tonalRamp":["oklch(15% 0.0202 96.32)","oklch(25% 0.0202 96.32)","oklch(35% 0.0202 96.32)","oklch(45% 0.0202 96.32)","oklch(55% 0.0202 96.32)","oklch(65% 0.0202 96.32)","oklch(80% 0.0202 96.32)","oklch(95% 0.0202 96.32)"]},
+      "chamber-rule": {"role":"neutral","displayName":"Homepage paper rule","tonalRamp":["oklch(15% 0.0299 82.58)","oklch(25% 0.0299 82.58)","oklch(35% 0.0299 82.58)","oklch(45% 0.0299 82.58)","oklch(55% 0.0299 82.58)","oklch(65% 0.0299 82.58)","oklch(80% 0.0299 82.58)","oklch(95% 0.0299 82.58)"]},
+      "chamber-accent": {"role":"primary","displayName":"Homepage aged wood","tonalRamp":["oklch(15% 0.0845 42.47)","oklch(25% 0.0845 42.47)","oklch(35% 0.0845 42.47)","oklch(45% 0.0845 42.47)","oklch(55% 0.0845 42.47)","oklch(65% 0.0845 42.47)","oklch(80% 0.0845 42.47)","oklch(95% 0.0845 42.47)"]},
+      "chamber-green": {"role":"neutral","displayName":"Homepage music-room ground","tonalRamp":["oklch(15% 0.0197 142.03)","oklch(25% 0.0197 142.03)","oklch(35% 0.0197 142.03)","oklch(45% 0.0197 142.03)","oklch(55% 0.0197 142.03)","oklch(65% 0.0197 142.03)","oklch(80% 0.0197 142.03)","oklch(95% 0.0197 142.03)"]},
+      "dark-chamber-paper": {"role":"neutral","displayName":"Homepage evening paper","tonalRamp":["oklch(15% 0.0150 124.13)","oklch(25% 0.0150 124.13)","oklch(35% 0.0150 124.13)","oklch(45% 0.0150 124.13)","oklch(55% 0.0150 124.13)","oklch(65% 0.0150 124.13)","oklch(80% 0.0150 124.13)","oklch(95% 0.0150 124.13)"]},
+      "dark-chamber-ink": {"role":"neutral","displayName":"Homepage evening ink","tonalRamp":["oklch(15% 0.0230 84.59)","oklch(25% 0.0230 84.59)","oklch(35% 0.0230 84.59)","oklch(45% 0.0230 84.59)","oklch(55% 0.0230 84.59)","oklch(65% 0.0230 84.59)","oklch(80% 0.0230 84.59)","oklch(95% 0.0230 84.59)"]},
+      "dark-chamber-muted": {"role":"neutral","displayName":"Homepage evening secondary ink","tonalRamp":["oklch(15% 0.0244 82.11)","oklch(25% 0.0244 82.11)","oklch(35% 0.0244 82.11)","oklch(45% 0.0244 82.11)","oklch(55% 0.0244 82.11)","oklch(65% 0.0244 82.11)","oklch(80% 0.0244 82.11)","oklch(95% 0.0244 82.11)"]},
+      "dark-chamber-rule": {"role":"neutral","displayName":"Homepage evening rule","tonalRamp":["oklch(15% 0.0245 119.58)","oklch(25% 0.0245 119.58)","oklch(35% 0.0245 119.58)","oklch(45% 0.0245 119.58)","oklch(55% 0.0245 119.58)","oklch(65% 0.0245 119.58)","oklch(80% 0.0245 119.58)","oklch(95% 0.0245 119.58)"]},
+      "dark-chamber-accent": {"role":"primary","displayName":"Homepage evening aged wood","tonalRamp":["oklch(15% 0.0731 67.77)","oklch(25% 0.0731 67.77)","oklch(35% 0.0731 67.77)","oklch(45% 0.0731 67.77)","oklch(55% 0.0731 67.77)","oklch(65% 0.0731 67.77)","oklch(80% 0.0731 67.77)","oklch(95% 0.0731 67.77)"]},
+      "dark-chamber-green": {"role":"neutral","displayName":"Homepage evening music-room ground","tonalRamp":["oklch(15% 0.0166 145.04)","oklch(25% 0.0166 145.04)","oklch(35% 0.0166 145.04)","oklch(45% 0.0166 145.04)","oklch(55% 0.0166 145.04)","oklch(65% 0.0166 145.04)","oklch(80% 0.0166 145.04)","oklch(95% 0.0166 145.04)"]},
+      "home-hero-ink": {"role":"neutral","displayName":"Photographic hero ink","tonalRamp":["oklch(15% 0.0260 82.39)","oklch(25% 0.0260 82.39)","oklch(35% 0.0260 82.39)","oklch(45% 0.0260 82.39)","oklch(55% 0.0260 82.39)","oklch(65% 0.0260 82.39)","oklch(80% 0.0260 82.39)","oklch(95% 0.0260 82.39)"]},
+      "home-header-ink": {"role":"neutral","displayName":"Overlaid header ink","tonalRamp":["oklch(15% 0.0229 84.59)","oklch(25% 0.0229 84.59)","oklch(35% 0.0229 84.59)","oklch(45% 0.0229 84.59)","oklch(55% 0.0229 84.59)","oklch(65% 0.0229 84.59)","oklch(80% 0.0229 84.59)","oklch(95% 0.0229 84.59)"]},
+      "home-seal": {"role":"primary","displayName":"Cinnabar identity seal","tonalRamp":["oklch(15% 0.0972 40.04)","oklch(25% 0.0972 40.04)","oklch(35% 0.0972 40.04)","oklch(45% 0.0972 40.04)","oklch(55% 0.0972 40.04)","oklch(65% 0.0972 40.04)","oklch(80% 0.0972 40.04)","oklch(95% 0.0972 40.04)"]},
+      "background": {
+        "role": "neutral",
+        "displayName": "Stone-white paper",
+        "tonalRamp": [
+          "oklch(15% 0.0044 95.09)",
+          "oklch(25% 0.0044 95.09)",
+          "oklch(35% 0.0044 95.09)",
+          "oklch(45% 0.0044 95.09)",
+          "oklch(55% 0.0044 95.09)",
+          "oklch(65% 0.0044 95.09)",
+          "oklch(80% 0.0044 95.09)",
+          "oklch(95% 0.0044 95.09)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Reading ink",
+        "tonalRamp": [
+          "oklch(15% 0.0143 159.62)",
+          "oklch(25% 0.0143 159.62)",
+          "oklch(35% 0.0143 159.62)",
+          "oklch(45% 0.0143 159.62)",
+          "oklch(55% 0.0143 159.62)",
+          "oklch(65% 0.0143 159.62)",
+          "oklch(80% 0.0143 159.62)",
+          "oklch(95% 0.0143 159.62)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Raised paper",
+        "tonalRamp": [
+          "oklch(15% 0.0021 91.43)",
+          "oklch(25% 0.0021 91.43)",
+          "oklch(35% 0.0021 91.43)",
+          "oklch(45% 0.0021 91.43)",
+          "oklch(55% 0.0021 91.43)",
+          "oklch(65% 0.0021 91.43)",
+          "oklch(80% 0.0021 91.43)",
+          "oklch(95% 0.0021 91.43)"
+        ]
+      },
+      "card-foreground": {
+        "role": "neutral",
+        "displayName": "Card reading ink",
+        "tonalRamp": [
+          "oklch(15% 0.0143 159.62)",
+          "oklch(25% 0.0143 159.62)",
+          "oklch(35% 0.0143 159.62)",
+          "oklch(45% 0.0143 159.62)",
+          "oklch(55% 0.0143 159.62)",
+          "oklch(65% 0.0143 159.62)",
+          "oklch(80% 0.0143 159.62)",
+          "oklch(95% 0.0143 159.62)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Olive-black ink",
+        "tonalRamp": [
+          "oklch(15% 0.0225 158.88)",
+          "oklch(25% 0.0225 158.88)",
+          "oklch(35% 0.0225 158.88)",
+          "oklch(45% 0.0225 158.88)",
+          "oklch(55% 0.0225 158.88)",
+          "oklch(65% 0.0225 158.88)",
+          "oklch(80% 0.0225 158.88)",
+          "oklch(95% 0.0225 158.88)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "neutral",
+        "displayName": "Reverse paper",
+        "tonalRamp": [
+          "oklch(15% 0.0033 95.07)",
+          "oklch(25% 0.0033 95.07)",
+          "oklch(35% 0.0033 95.07)",
+          "oklch(45% 0.0033 95.07)",
+          "oklch(55% 0.0033 95.07)",
+          "oklch(65% 0.0033 95.07)",
+          "oklch(80% 0.0033 95.07)",
+          "oklch(95% 0.0033 95.07)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Stone wash",
+        "tonalRamp": [
+          "oklch(15% 0.0097 91.50)",
+          "oklch(25% 0.0097 91.50)",
+          "oklch(35% 0.0097 91.50)",
+          "oklch(45% 0.0097 91.50)",
+          "oklch(55% 0.0097 91.50)",
+          "oklch(65% 0.0097 91.50)",
+          "oklch(80% 0.0097 91.50)",
+          "oklch(95% 0.0097 91.50)"
+        ]
+      },
+      "secondary-foreground": {
+        "role": "neutral",
+        "displayName": "Secondary surface ink",
+        "tonalRamp": [
+          "oklch(15% 0.0143 159.62)",
+          "oklch(25% 0.0143 159.62)",
+          "oklch(35% 0.0143 159.62)",
+          "oklch(45% 0.0143 159.62)",
+          "oklch(55% 0.0143 159.62)",
+          "oklch(65% 0.0143 159.62)",
+          "oklch(80% 0.0143 159.62)",
+          "oklch(95% 0.0143 159.62)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted stone",
+        "tonalRamp": [
+          "oklch(15% 0.0070 91.48)",
+          "oklch(25% 0.0070 91.48)",
+          "oklch(35% 0.0070 91.48)",
+          "oklch(45% 0.0070 91.48)",
+          "oklch(55% 0.0070 91.48)",
+          "oklch(65% 0.0070 91.48)",
+          "oklch(80% 0.0070 91.48)",
+          "oklch(95% 0.0070 91.48)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Secondary ink",
+        "tonalRamp": [
+          "oklch(15% 0.0156 155.25)",
+          "oklch(25% 0.0156 155.25)",
+          "oklch(35% 0.0156 155.25)",
+          "oklch(45% 0.0156 155.25)",
+          "oklch(55% 0.0156 155.25)",
+          "oklch(65% 0.0156 155.25)",
+          "oklch(80% 0.0156 155.25)",
+          "oklch(95% 0.0156 155.25)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.1077 37.61)",
+          "oklch(25% 0.1077 37.61)",
+          "oklch(35% 0.1077 37.61)",
+          "oklch(45% 0.1077 37.61)",
+          "oklch(55% 0.1077 37.61)",
+          "oklch(65% 0.1077 37.61)",
+          "oklch(80% 0.1077 37.61)",
+          "oklch(95% 0.1077 37.61)"
+        ]
+      },
+      "accent-foreground": {
+        "role": "neutral",
+        "displayName": "Accent reverse paper",
+        "tonalRamp": [
+          "oklch(15% 0.0021 91.43)",
+          "oklch(25% 0.0021 91.43)",
+          "oklch(35% 0.0021 91.43)",
+          "oklch(45% 0.0021 91.43)",
+          "oklch(55% 0.0021 91.43)",
+          "oklch(65% 0.0021 91.43)",
+          "oklch(80% 0.0021 91.43)",
+          "oklch(95% 0.0021 91.43)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Fine rule",
+        "tonalRamp": [
+          "oklch(15% 0.0113 91.52)",
+          "oklch(25% 0.0113 91.52)",
+          "oklch(35% 0.0113 91.52)",
+          "oklch(45% 0.0113 91.52)",
+          "oklch(55% 0.0113 91.52)",
+          "oklch(65% 0.0113 91.52)",
+          "oklch(80% 0.0113 91.52)",
+          "oklch(95% 0.0113 91.52)"
+        ]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Field line",
+        "tonalRamp": [
+          "oklch(15% 0.0172 91.61)",
+          "oklch(25% 0.0172 91.61)",
+          "oklch(35% 0.0172 91.61)",
+          "oklch(45% 0.0172 91.61)",
+          "oklch(55% 0.0172 91.61)",
+          "oklch(65% 0.0172 91.61)",
+          "oklch(80% 0.0172 91.61)",
+          "oklch(95% 0.0172 91.61)"
+        ]
+      },
+      "ring": {
+        "role": "primary",
+        "displayName": "Focus terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.1077 37.61)",
+          "oklch(25% 0.1077 37.61)",
+          "oklch(35% 0.1077 37.61)",
+          "oklch(45% 0.1077 37.61)",
+          "oklch(55% 0.1077 37.61)",
+          "oklch(65% 0.1077 37.61)",
+          "oklch(80% 0.1077 37.61)",
+          "oklch(95% 0.1077 37.61)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Evening — Stone-white paper",
+        "tonalRamp": [
+          "oklch(15% 0.0096 159.95)",
+          "oklch(25% 0.0096 159.95)",
+          "oklch(35% 0.0096 159.95)",
+          "oklch(45% 0.0096 159.95)",
+          "oklch(55% 0.0096 159.95)",
+          "oklch(65% 0.0096 159.95)",
+          "oklch(80% 0.0096 159.95)",
+          "oklch(95% 0.0096 159.95)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Reading ink",
+        "tonalRamp": [
+          "oklch(15% 0.0111 91.51)",
+          "oklch(25% 0.0111 91.51)",
+          "oklch(35% 0.0111 91.51)",
+          "oklch(45% 0.0111 91.51)",
+          "oklch(55% 0.0111 91.51)",
+          "oklch(65% 0.0111 91.51)",
+          "oklch(80% 0.0111 91.51)",
+          "oklch(95% 0.0111 91.51)"
+        ]
+      },
+      "dark-card": {
+        "role": "neutral",
+        "displayName": "Evening — Raised paper",
+        "tonalRamp": [
+          "oklch(15% 0.0108 159.97)",
+          "oklch(25% 0.0108 159.97)",
+          "oklch(35% 0.0108 159.97)",
+          "oklch(45% 0.0108 159.97)",
+          "oklch(55% 0.0108 159.97)",
+          "oklch(65% 0.0108 159.97)",
+          "oklch(80% 0.0108 159.97)",
+          "oklch(95% 0.0108 159.97)"
+        ]
+      },
+      "dark-card-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Card reading ink",
+        "tonalRamp": [
+          "oklch(15% 0.0111 91.51)",
+          "oklch(25% 0.0111 91.51)",
+          "oklch(35% 0.0111 91.51)",
+          "oklch(45% 0.0111 91.51)",
+          "oklch(55% 0.0111 91.51)",
+          "oklch(65% 0.0111 91.51)",
+          "oklch(80% 0.0111 91.51)",
+          "oklch(95% 0.0111 91.51)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Evening — Olive-black ink",
+        "tonalRamp": [
+          "oklch(15% 0.0105 91.50)",
+          "oklch(25% 0.0105 91.50)",
+          "oklch(35% 0.0105 91.50)",
+          "oklch(45% 0.0105 91.50)",
+          "oklch(55% 0.0105 91.50)",
+          "oklch(65% 0.0105 91.50)",
+          "oklch(80% 0.0105 91.50)",
+          "oklch(95% 0.0105 91.50)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Reverse paper",
+        "tonalRamp": [
+          "oklch(15% 0.0133 159.66)",
+          "oklch(25% 0.0133 159.66)",
+          "oklch(35% 0.0133 159.66)",
+          "oklch(45% 0.0133 159.66)",
+          "oklch(55% 0.0133 159.66)",
+          "oklch(65% 0.0133 159.66)",
+          "oklch(80% 0.0133 159.66)",
+          "oklch(95% 0.0133 159.66)"
+        ]
+      },
+      "dark-secondary": {
+        "role": "neutral",
+        "displayName": "Evening — Stone wash",
+        "tonalRamp": [
+          "oklch(15% 0.0128 156.54)",
+          "oklch(25% 0.0128 156.54)",
+          "oklch(35% 0.0128 156.54)",
+          "oklch(45% 0.0128 156.54)",
+          "oklch(55% 0.0128 156.54)",
+          "oklch(65% 0.0128 156.54)",
+          "oklch(80% 0.0128 156.54)",
+          "oklch(95% 0.0128 156.54)"
+        ]
+      },
+      "dark-secondary-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Secondary surface ink",
+        "tonalRamp": [
+          "oklch(15% 0.0111 91.51)",
+          "oklch(25% 0.0111 91.51)",
+          "oklch(35% 0.0111 91.51)",
+          "oklch(45% 0.0111 91.51)",
+          "oklch(55% 0.0111 91.51)",
+          "oklch(65% 0.0111 91.51)",
+          "oklch(80% 0.0111 91.51)",
+          "oklch(95% 0.0111 91.51)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Evening — Muted stone",
+        "tonalRamp": [
+          "oklch(15% 0.0122 156.45)",
+          "oklch(25% 0.0122 156.45)",
+          "oklch(35% 0.0122 156.45)",
+          "oklch(45% 0.0122 156.45)",
+          "oklch(55% 0.0122 156.45)",
+          "oklch(65% 0.0122 156.45)",
+          "oklch(80% 0.0122 156.45)",
+          "oklch(95% 0.0122 156.45)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Secondary ink",
+        "tonalRamp": [
+          "oklch(15% 0.0147 91.57)",
+          "oklch(25% 0.0147 91.57)",
+          "oklch(35% 0.0147 91.57)",
+          "oklch(45% 0.0147 91.57)",
+          "oklch(55% 0.0147 91.57)",
+          "oklch(65% 0.0147 91.57)",
+          "oklch(80% 0.0147 91.57)",
+          "oklch(95% 0.0147 91.57)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Evening — Terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.0751 51.28)",
+          "oklch(25% 0.0751 51.28)",
+          "oklch(35% 0.0751 51.28)",
+          "oklch(45% 0.0751 51.28)",
+          "oklch(55% 0.0751 51.28)",
+          "oklch(65% 0.0751 51.28)",
+          "oklch(80% 0.0751 51.28)",
+          "oklch(95% 0.0751 51.28)"
+        ]
+      },
+      "dark-accent-foreground": {
+        "role": "neutral",
+        "displayName": "Evening — Accent reverse paper",
+        "tonalRamp": [
+          "oklch(15% 0.0133 159.66)",
+          "oklch(25% 0.0133 159.66)",
+          "oklch(35% 0.0133 159.66)",
+          "oklch(45% 0.0133 159.66)",
+          "oklch(55% 0.0133 159.66)",
+          "oklch(65% 0.0133 159.66)",
+          "oklch(80% 0.0133 159.66)",
+          "oklch(95% 0.0133 159.66)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Evening — Fine rule",
+        "tonalRamp": [
+          "oklch(15% 0.0125 156.64)",
+          "oklch(25% 0.0125 156.64)",
+          "oklch(35% 0.0125 156.64)",
+          "oklch(45% 0.0125 156.64)",
+          "oklch(55% 0.0125 156.64)",
+          "oklch(65% 0.0125 156.64)",
+          "oklch(80% 0.0125 156.64)",
+          "oklch(95% 0.0125 156.64)"
+        ]
+      },
+      "dark-input": {
+        "role": "neutral",
+        "displayName": "Evening — Field line",
+        "tonalRamp": [
+          "oklch(15% 0.0183 156.60)",
+          "oklch(25% 0.0183 156.60)",
+          "oklch(35% 0.0183 156.60)",
+          "oklch(45% 0.0183 156.60)",
+          "oklch(55% 0.0183 156.60)",
+          "oklch(65% 0.0183 156.60)",
+          "oklch(80% 0.0183 156.60)",
+          "oklch(95% 0.0183 156.60)"
+        ]
+      },
+      "dark-ring": {
+        "role": "primary",
+        "displayName": "Evening — Focus terracotta",
+        "tonalRamp": [
+          "oklch(15% 0.0751 51.28)",
+          "oklch(25% 0.0751 51.28)",
+          "oklch(35% 0.0751 51.28)",
+          "oklch(45% 0.0751 51.28)",
+          "oklch(55% 0.0751 51.28)",
+          "oklch(65% 0.0751 51.28)",
+          "oklch(80% 0.0751 51.28)",
+          "oklch(95% 0.0751 51.28)"
+        ]
+      }
+    },
+    "tonalRampNote": "Ramps are derived OKLCH panel previews from the HSL and homepage hex primitives, with lightness stepped from 15% to 95%. They are not additional production tokens; DESIGN.md and the CSS variables remain normative.",
+    "typographyMeta": {
+      "home-display": {"displayName":"Photographic home display","purpose":"Current homepage hero; 62px at max-width 1100px, 52px at 780px, then home-display-phone."},
+      "home-display-phone": {"displayName":"Phone home display","purpose":"Homepage at max-width 560px; size becomes 40px at max-width 360px."},
+      "home-section": {"displayName":"Homepage section","purpose":"Default section heading. Journal uses 38px; music-room opening uses 40px / 1.65 / 0.06em; both use 32px on phones."},
+      "home-intro": {"displayName":"Homepage introduction","purpose":"Intro heading; 28px at max-width 780px, then 27px / 0.01em at 560px."},
+      "home-deck": {"displayName":"Photographic hero deck","purpose":"15px serif deck; phone size is 13px with 0.025em tracking. The more specific homepage paragraph rule gives effective line-height 2.05."},
+      "home-story-lead": {"displayName":"Homepage lead story","purpose":"Lead article title; 25px at max-width 560px."},
+      "home-story-title": {"displayName":"Homepage supporting title","purpose":"Supporting articles; 19px at 1100px, 18px at 780px, 19px at 560px. Learning titles use 21px / 1.7, 19px at 1100px and 23px at 560px."},
+      "home-summary": {"displayName":"Homepage supporting summary","purpose":"13px supporting-story prose; three-line clamp at max-width 560px. Learning summaries become 14px on phones."},
+      "display": {
+        "displayName": "Legacy home display",
+        "purpose": "Retained record of the superseded home-opening CSS; the current homepage uses home-display. Inner-route scales are unchanged."
+      },
+      "display-journal": {
+        "displayName": "Journal masthead",
+        "purpose": "Journal index title."
+      },
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Shared page hero title."
+      },
+      "section": {
+        "displayName": "Section heading",
+        "purpose": "Shared editorial section headings."
+      },
+      "title": {
+        "displayName": "Knowledge title",
+        "purpose": "Knowledge-index headings."
+      },
+      "body": {
+        "displayName": "Article body",
+        "purpose": "Article paragraphs; general prose has a smaller observed scale."
+      },
+      "ui": {
+        "displayName": "Interface",
+        "purpose": "Buttons and shared controls."
+      },
+      "label": {
+        "displayName": "Metadata",
+        "purpose": "Quiet article and profile metadata."
+      }
+    },
+    "homepage": {
+      "scope": "Only /, its header and footer; docs/classical-home-direction.md supersedes the previous homepage brief. app/home-classical.css is the implementation source.",
+      "layout": "Reading measure min(1280px, calc(100% - 128px)); 40px gutters at max-width 1100px, 22px at 560px. Hero: min-height 720px and height min(900px,100svh); at 780px use min-height 700px, height 90svh, max-height 850px; at 560px use min-height 690px, height 92svh, max-height 810px.",
+      "image": "Cover crop: centre 56%; 58% centre at max-width 780px; 80% centre at 560px keeps the flute visible. The picture supplies the 960px source at max-width 680px. Text remains HTML.",
+      "stories": "One lead plus three supporting rows; stack the lead and show three supporting columns at 780px, then 100px image/text rows at 560px. Supporting summaries use home-summary and clamp to three lines only on phones. Full text remains on article routes.",
+      "learning": "Six routes use two columns, becoming one at 560px. The music-room introduction stacks above the routes at 780px. Intro, search and sources become single-column at 560px.",
+      "navigation": "Absolute overlay, 94px minimum header height, 83px at max-width 560px. Desktop links begin at 1120px; header icon controls are at least 44px square at every width. Menus close on route changes, outside clicks or Escape; Escape from an open mobile menu restores toggle focus.",
+      "theme": "Scoped chamber variables have dark-chamber counterparts. The open mobile menu uses those paper, ink, muted and rule roles; the photographic hero and closed header remain pale in both themes. Desktop dropdowns remain warm paper with dark ink.",
+      "search": "GET /search with q, explicit input label, transparent 48px-minimum field and submit control between top/bottom rules. At 560px input text is 16px and the 44px-minimum icon submit keeps its visually hidden accessible name.",
+      "footer": "Homepage alone applies its dark music-room footer roles, 500-weight Chinese title and positive tracking, hides the oversized English wordmark, and reduces top padding from 58px to 44px at 560px."
+    },
+    "shadows": [
+      {
+        "name": "nav-dropdown",
+        "value": "0 14px 30px rgb(0 0 0 / .12)",
+        "purpose": "Temporary desktop navigation menu."
+      },
+      {
+        "name": "soft",
+        "value": "0 18px 46px rgb(28 35 30 / 0.10)",
+        "purpose": "Focused skip-link overlay."
+      },
+      {
+        "name": "line",
+        "value": "none",
+        "purpose": "Flat bordered data and supporting containers."
+      }
+    ],
+    "focus": [
+      {"name":"homepage-outline","value":"outline: 2px solid var(--chamber-accent); outline-offset: 6px;","purpose":"Homepage reading content; hero overrides the colour to home-hero-ink. Header retains the shared 4px offset and uses its current header ink."},
+      {
+        "name": "global-outline",
+        "value": "outline: 2px solid hsl(var(--ring)); outline-offset: 4px;",
+        "purpose": "Keyboard-visible focus for anchors and native controls."
+      },
+      {
+        "name": "button-ring",
+        "value": "box-shadow: 0 0 0 2px hsl(var(--background)), 0 0 0 4px hsl(var(--ring)); outline: none;",
+        "purpose": "Shared button focus ring with background offset."
+      },
+      {
+        "name": "input-ring",
+        "value": "box-shadow: 0 0 0 2px hsl(var(--ring)); outline: none;",
+        "purpose": "Standard input focus ring."
+      }
+    ],
+    "motion": [
+      {"name":"chamber-light","value":"1800ms cubic-bezier(.16,1,.3,1) both","purpose":"One homepage photograph settling from scale(1.035) to scale(1); disabled for reduced motion."},
+      {"name":"homepage-arrow","value":"transform 220ms ease-out","purpose":"Homepage action and text-link arrows move translate(2px,-2px) on hover; reduced motion removes the transform."},
+      {
+        "name": "global-feedback",
+        "value": "color 180ms, background-color 180ms, border-color 180ms, box-shadow 180ms",
+        "purpose": "Native links, buttons, summaries, inputs and selects."
+      },
+      {
+        "name": "button-feedback",
+        "value": "200ms ease-out",
+        "purpose": "Shared button colour, border, shadow and transform feedback."
+      },
+      {
+        "name": "button-active",
+        "value": "scale(0.98)",
+        "purpose": "Pressed button response."
+      },
+      {
+        "name": "editorial-arrow",
+        "value": "transform 240ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Hover movement by translate(2px, -2px)."
+      },
+      {
+        "name": "image-hover",
+        "value": "transform 650ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Story and journal images scale to 1.025."
+      },
+      {
+        "name": "plate-open",
+        "value": "1000ms cubic-bezier(.16, 1, .3, 1) both",
+        "purpose": "Retained legacy home-plate reveal from clip-path: inset(0 0 8% 0) to inset(0); superseded on the current homepage by chamber-light."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto;",
+        "purpose": "Reduced-motion mode also removes image and editorial-arrow hover transforms. Native disclosure content has no animated height in its current implementation."
+      }
+    ],
+    "breakpoints": [
+      {"name":"home-small-phone-max","value":"360px"},
+      {"name":"home-phone-max","value":"560px"},
+      {"name":"home-story-stack-max","value":"780px"},
+      {"name":"home-compact-max","value":"1100px"},
+      {"name":"home-desktop-nav-min","value":"1120px"},
+      {
+        "name": "phone-max",
+        "value": "599px"
+      },
+      {
+        "name": "reading-stack-max",
+        "value": "899px"
+      },
+      {
+        "name": "compact-wide-max",
+        "value": "1199px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Homepage hero action", "kind": "button",
+      "description": "Pale square action over the photographic scene; minimum 48px height and reversed focus outline.",
+      "html": "<div class=\"ds-home-hero-sample\"><a class=\"ds-home-primary\" href=\"/start\">從新手入門<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div>",
+      "css": ".ds-home-hero-sample{background:#192019;padding:24px}.ds-home-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:48px;padding:12px 21px;border:1px solid #f1e6d0;border-radius:0;background:#f1e6d0;color:#283125;font-family:var(--font-sans);font-size:13px;letter-spacing:.07em;text-decoration:none;transition:color 180ms,background-color 180ms,border-color 180ms,box-shadow 180ms}.ds-home-primary:hover{background:#fff8ea;border-color:#fff8ea}.ds-home-primary:focus-visible{outline:2px solid #fff5e3;outline-offset:6px}.ds-home-primary svg{flex-shrink:0;transition:transform 220ms ease-out}.ds-home-primary:hover svg{transform:translate(2px,-2px)}@media(max-width:560px){.ds-home-primary{font-size:12px;gap:20px;padding:10px 16px}}@media(max-width:360px){.ds-home-primary{gap:15px}}@media(prefers-reduced-motion:reduce){.ds-home-primary,.ds-home-primary svg{transition:none}.ds-home-primary:hover svg{transform:none}}"
+    },
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shared primary button variant; 44px default control.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">從新手入門</button>",
+      "css": ".ds-button-primary{display:inline-flex;min-height:44px;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:10px 16px;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;background:hsl(var(--primary));color:hsl(var(--primary-foreground));}.ds-button-primary:hover{background:hsl(var(--primary)/.9);}.ds-button-primary:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-primary:active{transform:scale(.98)}.ds-button-primary:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Shared secondary button variant; 44px default control.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">返回索引</button>",
+      "css": ".ds-button-secondary{display:inline-flex;min-height:44px;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:10px 16px;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;background:hsl(var(--muted));color:hsl(var(--primary));}.ds-button-secondary:hover{background:hsl(var(--muted)/.7);}.ds-button-secondary:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-secondary:active{transform:scale(.98)}.ds-button-secondary:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+    },
+    {
+      "name": "Accent button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "Shared accent button variant; 44px default control.",
+      "html": "<button class=\"ds-button-accent\" type=\"button\">繼續閱讀</button>",
+      "css": ".ds-button-accent{display:inline-flex;min-height:44px;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:10px 16px;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;background:hsl(var(--accent));color:hsl(var(--accent-foreground));}.ds-button-accent:hover{background:hsl(var(--accent)/.9);}.ds-button-accent:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-accent:active{transform:scale(.98)}.ds-button-accent:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-accent{transition:none}}"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Shared outline button variant; 44px default control.",
+      "html": "<button class=\"ds-button-outline\" type=\"button\">搜尋全站內容</button>",
+      "css": ".ds-button-outline{display:inline-flex;min-height:44px;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:10px 16px;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;border:1px solid hsl(var(--border));background:hsl(var(--card));color:hsl(var(--foreground));}.ds-button-outline:hover{border-color:hsl(var(--primary)/.4);background:hsl(var(--muted));}.ds-button-outline:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-outline:active{transform:scale(.98)}.ds-button-outline:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-outline{transition:none}}"
+    },
+    {
+      "name": "Ghost button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Shared ghost button variant; 44px default control.",
+      "html": "<button class=\"ds-button-ghost\" type=\"button\">搜尋全站</button>",
+      "css": ".ds-button-ghost{display:inline-flex;min-height:44px;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:8px 12px;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;background:transparent;color:hsl(var(--muted-foreground));}.ds-button-ghost:hover{background:hsl(var(--muted));color:hsl(var(--primary));}.ds-button-ghost:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-ghost:active{transform:scale(.98)}.ds-button-ghost:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-ghost{transition:none}}"
+    },
+    {
+      "name": "Link button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Shared link button variant; 44px default control.",
+      "html": "<a class=\"ds-button-link\" href=\"/masters\">閱讀人物檔案</a>",
+      "css": ".ds-button-link{display:inline-flex;min-height:0;height:44px;align-items:center;justify-content:center;gap:8px;border:0;border-radius:0;font-family:var(--font-sans);font-size:14px;font-weight:500;line-height:20px;padding:0;transition:background-color 200ms ease-out,border-color 200ms ease-out,color 200ms ease-out,box-shadow 200ms ease-out,transform 200ms ease-out;background:transparent;color:hsl(var(--accent));text-decoration:underline;text-decoration-color:hsl(var(--accent)/.3);text-underline-offset:4px;}.ds-button-link:hover{text-decoration-color:hsl(var(--accent));}.ds-button-link:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--background)),0 0 0 4px hsl(var(--ring))}.ds-button-link:active{transform:scale(.98)}.ds-button-link:disabled{pointer-events:none;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button-link{transition:none}}"
+    },
+    {
+      "name": "Search input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled square search field with a stronger border and visible focus ring.",
+      "html": "<label class=\"ds-field\" for=\"ds-query\">搜尋竹笛札記<input class=\"ds-input\" id=\"ds-query\" type=\"search\" placeholder=\"搜尋文章、曲名或練習問題\"></label>",
+      "css": ".ds-field{display:grid;gap:8px;font-family:var(--font-sans);font-size:14px;color:hsl(var(--primary))}.ds-input{display:flex;width:100%;height:44px;border:1px solid hsl(var(--input));border-radius:0;background:hsl(var(--card));color:hsl(var(--foreground));padding:8px 12px;font-family:var(--font-sans);font-size:16px;caret-color:hsl(var(--accent));transition:color 180ms,background-color 180ms,border-color 180ms,box-shadow 180ms}.ds-input::placeholder{color:hsl(var(--muted-foreground))}.ds-input:focus-visible{outline:none;box-shadow:0 0 0 2px hsl(var(--ring))}.ds-input:disabled{cursor:not-allowed;opacity:.5}@media(min-width:768px){.ds-input{font-size:14px}}@media(prefers-reduced-motion:reduce){.ds-input{transition:none}}"
+    },
+    {
+      "name": "Desktop navigation link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Text-first navigation with a terracotta underline for the current section.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主選單\"><a class=\"ds-nav-link\" href=\"/repertoire\">曲目導聽</a><a class=\"ds-nav-link ds-current\" href=\"/journal\" aria-current=\"page\">竹笛札記</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:4px}.ds-nav-link{display:flex;align-items:center;gap:5px;min-height:44px;padding:10px 15px;font:500 14px var(--font-sans);color:hsl(var(--primary));text-decoration:none;text-underline-offset:8px;transition:color 180ms,background-color 180ms,border-color 180ms,box-shadow 180ms}.ds-nav-link:hover,.ds-nav-link.ds-current{text-decoration:underline;text-decoration-color:hsl(var(--accent))}.ds-nav-link:focus-visible{outline:2px solid hsl(var(--ring));outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav-link{transition:none}}"
+    },
+    {
+      "name": "Metadata badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Non-interactive pill label; this surviving shape exception marks metadata.",
+      "html": "<span class=\"ds-badge\">資料來源</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;border-radius:9999px;border:1px solid hsl(var(--primary)/.2);padding:4px 12px;background:hsl(var(--primary)/.05);color:hsl(var(--primary));font-family:var(--font-sans);font-size:12px;line-height:16px;font-weight:700;transition:color 150ms cubic-bezier(.4,0,.2,1),background-color 150ms cubic-bezier(.4,0,.2,1),border-color 150ms cubic-bezier(.4,0,.2,1)}@media(prefers-reduced-motion:reduce){.ds-badge{transition:none}}"
+    },
+    {
+      "name": "Supporting card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Small-radius, bordered paper container for bounded supporting material; no default shadow.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-header\"><h3 class=\"ds-card-title\">入門與練習</h3><p class=\"ds-card-description\">認識笛身、笛膜與發聲。</p></div><div class=\"ds-card-content\">由一個清楚的音開始。</div></article>",
+      "css": ".ds-card{border-radius:calc(var(--radius) - 2px);border:1px solid hsl(var(--border));background:hsl(var(--card));color:hsl(var(--card-foreground));font-family:var(--font-sans)}.ds-card-header{display:flex;flex-direction:column;gap:8px;padding:20px}.ds-card-title{margin:0;font-family:var(--font-serif);font-size:20px;line-height:1.375;font-weight:700;color:hsl(var(--primary))}.ds-card-description{margin:0;font-family:var(--font-sans);font-size:14px;line-height:24px;color:hsl(var(--muted-foreground))}.ds-card-content{padding:0 20px 20px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Contemporary Cultural Reading Room",
+    "overview": "The site pairs the scale and composure of a museum gallery with the practical clarity of a reading room. Original illustrations and Hong Kong Chinese serif headings establish its cultural character; sans-serif prose, controls and indexes make a substantial collection easy to read and navigate.\n\nSurfaces are quiet and mostly flat. Fine rules and editorial hierarchy separate material without turning every section into a card. The same hierarchy works on stone-white paper and in the reader-selected evening theme.",
+    "keyCharacteristics": [
+      "Hong Kong serif display with readable sans-serif prose and controls.",
+      "Original image plates, generous headings and restrained terracotta emphasis.",
+      "Flat editorial lists, fine rules and clear differences between lead and supporting material.",
+      "Responsive indexes and a complete mobile reading flow.",
+      "Light and dark themes share semantic colour roles and visible focus states."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Colour Rule",
+        "body": "New component styling uses the existing semantic roles; it does not hard-code a light-theme colour into a shared surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Type Role Rule",
+        "body": "Reserve the serif for display, headings and selected editorial decks; keep controls, data and long article paragraphs in the sans family. Preserve negative tracking on the existing inner-route headings; homepage headings use their own positive tracking.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "**Do** retain original illustrations, readable Hong Kong Chinese and clear source paths.",
+      "**Do** use semantic colour variables for both reading themes.",
+      "**Do** distinguish lead stories, supporting stories and indexes through type, spacing and image scale.",
+      "**Do** preserve visible focus, labelled controls, 44px targets and the mobile reading order.",
+      "**Do** use the existing square controls and fine-rule editorial lists, retaining small-radius supporting components where they already apply."
+    ],
+    "donts": [
+      "**Don't** reintroduce the superseded green-academy palette, Noto TC display stack or 1280px global container.",
+      "**Don't** turn every section or index entry into a raised card.",
+      "**Don't** add decorative crosshairs, gratuitous numbering or invented decorative labels.",
+      "**Don't** apply a single desktop crop, grid or unbreakable title treatment at every width.",
+      "**Don't** add motion that bypasses the existing reduced-motion treatment."
+    ]
+  }
+}

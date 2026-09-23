@@ -1,0 +1,227 @@
+[
+  {
+    "id": "TEC-0001",
+    "name": "單吐",
+    "description": "基本舌吐技法",
+    "people": "全體",
+    "works": "基礎曲目",
+    "research": "發音清晰、節奏穩定",
+    "category": "舌法"
+  },
+  {
+    "id": "TEC-0002",
+    "name": "雙吐",
+    "description": "快速吐音",
+    "people": "馮子存、王鐵錘、戴亞",
+    "works": "《五梆子》《秦川情》",
+    "research": "北派速度與力度",
+    "category": "舌法"
+  },
+  {
+    "id": "TEC-0003",
+    "name": "三吐",
+    "description": "快速節奏型",
+    "people": "北派 / 學院派",
+    "works": "《喜相逢》等",
+    "research": "舌尖控制",
+    "category": "舌法"
+  },
+  {
+    "id": "TEC-0004",
+    "name": "花舌",
+    "description": "舌顫音",
+    "people": "馮子存、劉管樂",
+    "works": "《蔭中鳥》《賣菜》",
+    "research": "鳥鳴、熱烈情緒",
+    "category": "舌法"
+  },
+  {
+    "id": "TEC-0005",
+    "name": "滑音",
+    "description": "指滑與氣滑",
+    "people": "馬迪、劉管樂",
+    "works": "《秦川抒懷》《賣菜》",
+    "research": "戲曲聲腔模仿",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0006",
+    "name": "剁音",
+    "description": "北派強烈裝飾",
+    "people": "劉管樂、馮子存",
+    "works": "《五梆子》《賣菜》",
+    "research": "北派力度",
+    "category": "其他"
+  },
+  {
+    "id": "TEC-0007",
+    "name": "歷音",
+    "description": "快速經過音",
+    "people": "劉管樂、陸春齡",
+    "works": "《蔭中鳥》《鷓鴣飛》",
+    "research": "裝飾線條",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0008",
+    "name": "顫音",
+    "description": "手指顫動",
+    "people": "陸春齡、趙松庭",
+    "works": "《鷓鴣飛》",
+    "research": "江南韻味",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0009",
+    "name": "疊音",
+    "description": "南派裝飾音",
+    "people": "陸春齡",
+    "works": "《行街》《歡樂歌》",
+    "research": "曲笛潤腔",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0010",
+    "name": "打音",
+    "description": "下行裝飾",
+    "people": "陸春齡",
+    "works": "《中花六板》",
+    "research": "江南絲竹語氣",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0011",
+    "name": "贈音",
+    "description": "裝飾收束",
+    "people": "陸春齡",
+    "works": "《鷓鴣飛》",
+    "research": "慢板韻味",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0012",
+    "name": "循環換氣",
+    "description": "鼻吸與口腔存氣連續發音",
+    "people": "趙松庭",
+    "works": "《幽蘭逢春》",
+    "research": "趙派核心技法",
+    "category": "氣息與音色"
+  },
+  {
+    "id": "TEC-0013",
+    "name": "半孔",
+    "description": "以半按孔取得半音",
+    "people": "劉森",
+    "works": "《鄉村小景》等",
+    "research": "六孔笛轉調",
+    "category": "指法與裝飾"
+  },
+  {
+    "id": "TEC-0014",
+    "name": "超吹",
+    "description": "高音區控制",
+    "people": "陸春齡、俞遜發",
+    "works": "《歡樂歌》《秋湖月夜》",
+    "research": "音區擴展",
+    "category": "氣息與音色"
+  },
+  {
+    "id": "TEC-0015",
+    "name": "泛音",
+    "description": "泛音列運用",
+    "people": "當代作品",
+    "works": "《匯流》等",
+    "research": "特殊音響",
+    "category": "氣息與音色"
+  },
+  {
+    "id": "TEC-0016",
+    "name": "氣聲",
+    "description": "帶氣音色",
+    "people": "俞遜發、周晴",
+    "works": "《赤日》《燃》",
+    "research": "當代音響",
+    "category": "氣息與音色"
+  },
+  {
+    "id": "TEC-0017",
+    "name": "口笛技法",
+    "description": "口笛專用吹奏",
+    "people": "俞遜發",
+    "works": "《苗嶺的早晨》口笛版",
+    "research": "樂器創新",
+    "category": "樂器改革"
+  },
+  {
+    "id": "TEC-0018",
+    "name": "八孔笛指法",
+    "description": "改良笛指法",
+    "people": "戴亞",
+    "works": "八孔笛作品",
+    "research": "半音與轉調",
+    "category": "樂器改革"
+  },
+  {
+    "id": "TEC-0019",
+    "name": "十孔笛指法",
+    "description": "川音十孔笛指法",
+    "people": "易加義、張寶慶、王其書",
+    "works": "《阿詩瑪敘事詩》",
+    "research": "十二平均律",
+    "category": "樂器改革"
+  },
+  {
+    "id": "TEC-0020",
+    "name": "低音笛控制",
+    "description": "低音域氣息",
+    "people": "李鎮、蔣國基",
+    "works": "《草原的思念》",
+    "research": "音色與配器",
+    "category": "氣息與音色"
+  },
+  {
+    "id": "TEC-0021",
+    "name": "巨笛演奏",
+    "description": "大型笛種",
+    "people": "蔣國基",
+    "works": "巨笛作品",
+    "research": "舞台效果",
+    "category": "樂器改革"
+  },
+  {
+    "id": "TEC-0022",
+    "name": "笛簫轉換",
+    "description": "笛與簫技法互通",
+    "people": "張維良、陳悅",
+    "works": "笛簫專輯",
+    "research": "氣息與音色",
+    "category": "樂器改革"
+  },
+  {
+    "id": "TEC-0023",
+    "name": "戲曲韻腔",
+    "description": "模仿秦腔、崑曲、豫劇等",
+    "people": "馬迪、趙松庭、孔建華",
+    "works": "《秦川抒懷》《幽蘭逢春》",
+    "research": "地域語氣",
+    "category": "地域與擬聲"
+  },
+  {
+    "id": "TEC-0024",
+    "name": "鳥鳴擬聲",
+    "description": "模仿鳥鳴",
+    "people": "劉管樂",
+    "works": "《蔭中鳥》",
+    "research": "固定音型與自由模仿",
+    "category": "地域與擬聲"
+  },
+  {
+    "id": "TEC-0025",
+    "name": "水滴擬聲",
+    "description": "模仿水滴",
+    "people": "俞遜發",
+    "works": "《匯流》",
+    "research": "氣指複合音響",
+    "category": "地域與擬聲"
+  }
+]

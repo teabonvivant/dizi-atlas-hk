@@ -1,0 +1,302 @@
+[
+  {
+    "id": "AV-0001",
+    "title": "《喜相逢》馮子存笛子獨奏",
+    "performer": "馮子存",
+    "type": "錄音",
+    "work": "喜相逢",
+    "people": "馮子存",
+    "source": "https://www.huain.com/music/dizi/xxf/922.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0002",
+    "title": "《蔭中鳥》唐俊喬演奏",
+    "performer": "唐俊喬",
+    "type": "影像",
+    "work": "蔭中鳥",
+    "people": "劉管樂、唐俊喬",
+    "source": "https://www.huain.com/video/dizi/yzn/4881.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0003",
+    "title": "《賣菜》蔣寧、李樂演奏",
+    "performer": "蔣寧、李樂",
+    "type": "影像",
+    "work": "賣菜",
+    "people": "劉管樂、李樂",
+    "source": "https://www.huain.com/video/dizi/mc/3791.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0004",
+    "title": "《行街》陸春齡演奏",
+    "performer": "陸春齡",
+    "type": "影像 / 錄音",
+    "work": "行街",
+    "people": "陸春齡",
+    "source": "https://www.huain.com/video/dizi/xj/3675.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0005",
+    "title": "陸春齡九十華誕專場音樂會",
+    "performer": "陸春齡",
+    "type": "專輯 / 紀錄片",
+    "work": "多曲",
+    "people": "陸春齡",
+    "source": "https://www.huain.com/video/album/dizi/182.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0006",
+    "title": "《三五七》竹笛齊奏",
+    "performer": "趙派演奏群",
+    "type": "影像",
+    "work": "三五七",
+    "people": "趙松庭",
+    "source": "https://www.huain.com/video/dizi/swq/2743.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0007",
+    "title": "《婺江風光》",
+    "performer": "多版本",
+    "type": "影像",
+    "work": "婺江風光",
+    "people": "趙松庭",
+    "source": "https://www.huain.com/video/dizi/wjfg/2721.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0008",
+    "title": "《幽蘭逢春》詹永明演奏",
+    "performer": "詹永明",
+    "type": "影像",
+    "work": "幽蘭逢春",
+    "people": "趙松庭、詹永明",
+    "source": "https://www.huain.com/video/dizi/ylfc/2520.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0009",
+    "title": "《秋湖月夜》",
+    "performer": "俞遜發 / 後世版本",
+    "type": "影像",
+    "work": "秋湖月夜",
+    "people": "俞遜發",
+    "source": "https://www.huain.com/video/dizi/qhyy/5170.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0010",
+    "title": "《匯流》俞遜發獨奏",
+    "performer": "俞遜發",
+    "type": "影像",
+    "work": "匯流",
+    "people": "俞遜發",
+    "source": "https://www.huain.com/video/dizi/hl/4799.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0011",
+    "title": "《牧民新歌》CCTV音樂廳",
+    "performer": "侯長青",
+    "type": "電視節目",
+    "work": "牧民新歌",
+    "people": "簡廣易、侯長青",
+    "source": "https://tv.cctv.com/2023/05/03/VIDEibn95D50JMQWHitpOrTT230503.shtml",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0012",
+    "title": "《帕米爾的春天》",
+    "performer": "丁曉逵等版本",
+    "type": "影像",
+    "work": "帕米爾的春天",
+    "people": "李大同",
+    "source": "https://www.huain.com/video/dizi/pmedct/4420.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0013",
+    "title": "《水鄉船歌》詹永明雙竹笛協奏",
+    "performer": "詹永明",
+    "type": "影像",
+    "work": "水鄉船歌",
+    "people": "蔣國基、詹永明",
+    "source": "https://www.huain.com/video/dizi/sxcg/2464.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0014",
+    "title": "《大青山下》",
+    "performer": "李周貝妮等版本",
+    "type": "影像",
+    "work": "大青山下",
+    "people": "李鎮",
+    "source": "https://www.huain.com/video/dizi/dqsx/5716.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0015",
+    "title": "《秦川抒懷》盧耀波演奏",
+    "performer": "盧耀波",
+    "type": "影像",
+    "work": "秦川抒懷",
+    "people": "馬迪",
+    "source": "https://www.huain.com/video/dizi/qcshdz/2416.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0016",
+    "title": "《山村小景》張維良演奏",
+    "performer": "張維良",
+    "type": "影像",
+    "work": "山村小景",
+    "people": "劉森、張維良",
+    "source": "https://www.huain.com/video/dizi/scxj/3746.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0017",
+    "title": "《秦川情》戴亞笛子重奏",
+    "performer": "戴亞等",
+    "type": "影像",
+    "work": "秦川情",
+    "people": "曾永清、戴亞",
+    "source": "https://www.huain.com/video/dizi/qcq/3796.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0018",
+    "title": "《觀海河》王次恆",
+    "performer": "王次恆",
+    "type": "影像",
+    "work": "觀海河",
+    "people": "王次恆",
+    "source": "https://www.huain.com/video/dizi/ghh/2718.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0019",
+    "title": "《秋辭》詹永明",
+    "performer": "詹永明",
+    "type": "影像",
+    "work": "秋辭",
+    "people": "詹永明",
+    "source": "https://www.huain.com/video/dizi/qc/2509.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0020",
+    "title": "《走進快活嶺》唐俊喬",
+    "performer": "唐俊喬",
+    "type": "影像",
+    "work": "走進快活嶺",
+    "people": "唐俊喬、曲祥",
+    "source": "https://www.huain.com/video/dizi/zjkhl/4187.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0021",
+    "title": "《花泣》張健",
+    "performer": "張健",
+    "type": "影像",
+    "work": "花泣",
+    "people": "張維良、張健",
+    "source": "https://www.huain.com/video/dizi/hq/3781.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0022",
+    "title": "《三五七》陳悅",
+    "performer": "陳悅",
+    "type": "影像",
+    "work": "三五七",
+    "people": "陳悅、趙松庭",
+    "source": "https://www.huain.com/video/dizi/swq/2716.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0023",
+    "title": "《楚頌》張瑩瑩",
+    "performer": "張瑩瑩",
+    "type": "影像",
+    "work": "楚頌",
+    "people": "張瑩瑩",
+    "source": "https://www.huain.com/video/dizi/cs/3101.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0024",
+    "title": "《巴楚行》張瑩瑩",
+    "performer": "張瑩瑩",
+    "type": "影像",
+    "work": "巴楚行",
+    "people": "張瑩瑩",
+    "source": "https://www.huain.com/video/dizi/bcx/4791.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0025",
+    "title": "《竹枝詞》王俊侃 / 屠化冰相關",
+    "performer": "王俊侃、屠化冰",
+    "type": "影像",
+    "work": "竹枝詞",
+    "people": "王俊侃、屠化冰",
+    "source": "https://www.huain.com/video/dizi/zzc/3770.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0026",
+    "title": "《喜相逢》熊簫涵笛子四重奏",
+    "performer": "熊簫涵",
+    "type": "影像",
+    "work": "喜相逢",
+    "people": "熊簫涵",
+    "source": "https://www.huain.com/video/dizi/xxf/3794.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0027",
+    "title": "《二凡》蔡拯",
+    "performer": "蔡拯",
+    "type": "影像",
+    "work": "二凡",
+    "people": "蔡拯、趙松庭",
+    "source": "https://www.huain.com/video/dizi/ef/6040.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0028",
+    "title": "《貂蟬》吳樟華、陳加斌作品",
+    "performer": "馬雲鶴等",
+    "type": "影像",
+    "work": "貂蟬",
+    "people": "吳樟華、陳加斌",
+    "source": "https://www.huain.com/video/dizi/dc/4630.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0029",
+    "title": "「香江笛情」龔偉健笛子獨奏音樂會",
+    "performer": "龔偉健",
+    "type": "音樂會",
+    "work": "多曲",
+    "people": "龔偉健",
+    "source": "https://www.hkco.org/tc/Concerts/For-The-Love-Of-Dizi-And-Hong-Kong---Dizi-Concert-By-Ricky-Kung-Wai-Kin.html",
+    "status": "已定位"
+  },
+  {
+    "id": "AV-0030",
+    "title": "陳子旭香港中樂團示範 / 演出",
+    "performer": "陳子旭",
+    "type": "樂團演出 / 教育",
+    "work": "姑蘇行等",
+    "people": "陳子旭",
+    "source": "https://www.hkco.org/tc/Other-Members/Chan-Chi-Yuk.html",
+    "status": "已定位"
+  }
+]

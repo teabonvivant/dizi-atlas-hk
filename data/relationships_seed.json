@@ -1,0 +1,402 @@
+[
+  {
+    "id": "REL-0001",
+    "source": "馮子存",
+    "target": "張維良",
+    "type": "師承 / 受教線索",
+    "trust": "B",
+    "notes": "馮子存紀念文章有合影與傳承線索，需查證學習年表"
+  },
+  {
+    "id": "REL-0002",
+    "source": "馮子存",
+    "target": "曾永清",
+    "type": "師承",
+    "trust": "B",
+    "notes": "華音網曾永清資料稱師承馮子存等"
+  },
+  {
+    "id": "REL-0003",
+    "source": "劉管樂",
+    "target": "曾永清",
+    "type": "師承",
+    "trust": "B",
+    "notes": "曾永清資料稱師承劉管樂等"
+  },
+  {
+    "id": "REL-0004",
+    "source": "趙松庭",
+    "target": "曾永清",
+    "type": "師承",
+    "trust": "B",
+    "notes": "曾永清資料稱師承趙松庭等"
+  },
+  {
+    "id": "REL-0005",
+    "source": "陸春齡",
+    "target": "俞遜發",
+    "type": "師承 / 風格傳承",
+    "trust": "B",
+    "notes": "俞遜發資料稱傳承陸春齡南派風格"
+  },
+  {
+    "id": "REL-0006",
+    "source": "趙松庭",
+    "target": "俞遜發",
+    "type": "師承 / 風格傳承",
+    "trust": "B",
+    "notes": "俞遜發資料稱傳承趙松庭等"
+  },
+  {
+    "id": "REL-0007",
+    "source": "馮子存",
+    "target": "俞遜發",
+    "type": "風格吸收",
+    "trust": "C",
+    "notes": "俞遜發南北融合資料，需查證直接受教"
+  },
+  {
+    "id": "REL-0008",
+    "source": "劉管樂",
+    "target": "俞遜發",
+    "type": "風格吸收",
+    "trust": "C",
+    "notes": "俞遜發南北融合資料，需查證直接受教"
+  },
+  {
+    "id": "REL-0009",
+    "source": "趙松庭",
+    "target": "詹永明",
+    "type": "師承",
+    "trust": "A",
+    "notes": "詹永明為趙派重要傳人"
+  },
+  {
+    "id": "REL-0010",
+    "source": "趙松庭",
+    "target": "蔣國基",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網蔣國基資料明示20世紀70年代起師從趙松庭"
+  },
+  {
+    "id": "REL-0011",
+    "source": "趙松庭",
+    "target": "陳加斌",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網陳加斌資料"
+  },
+  {
+    "id": "REL-0012",
+    "source": "趙松庭",
+    "target": "吳樟華",
+    "type": "師承 / 趙派傳承",
+    "trust": "B",
+    "notes": "浙藝、華音資料線索"
+  },
+  {
+    "id": "REL-0013",
+    "source": "趙松庭",
+    "target": "陳悅",
+    "type": "關門弟子",
+    "trust": "A",
+    "notes": "華音網陳悅資料"
+  },
+  {
+    "id": "REL-0014",
+    "source": "趙松庭",
+    "target": "蔡拯",
+    "type": "家族師承",
+    "trust": "A",
+    "notes": "華音網蔡拯資料稱外祖父趙松庭"
+  },
+  {
+    "id": "REL-0015",
+    "source": "蔣國基",
+    "target": "陳悅",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網陳悅資料"
+  },
+  {
+    "id": "REL-0016",
+    "source": "張維良",
+    "target": "陳悅",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網陳悅資料"
+  },
+  {
+    "id": "REL-0017",
+    "source": "張維良",
+    "target": "楊偉傑",
+    "type": "博士導師",
+    "trust": "A",
+    "notes": "香港中樂團 / 港中深資料"
+  },
+  {
+    "id": "REL-0018",
+    "source": "張維良",
+    "target": "孟曉潔",
+    "type": "博士導師",
+    "trust": "A",
+    "notes": "華音網孟曉潔資料"
+  },
+  {
+    "id": "REL-0019",
+    "source": "張健",
+    "target": "孟曉潔",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網孟曉潔資料"
+  },
+  {
+    "id": "REL-0020",
+    "source": "陳悅",
+    "target": "孟曉潔",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網孟曉潔資料"
+  },
+  {
+    "id": "REL-0021",
+    "source": "戴亞",
+    "target": "李樂",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網李樂資料"
+  },
+  {
+    "id": "REL-0022",
+    "source": "戴亞",
+    "target": "馮天石",
+    "type": "師承",
+    "trust": "A",
+    "notes": "中央音樂學院 / HK Phil資料"
+  },
+  {
+    "id": "REL-0023",
+    "source": "袁非凡",
+    "target": "馮天石",
+    "type": "師承",
+    "trust": "A",
+    "notes": "中央音樂學院 / HK Phil資料"
+  },
+  {
+    "id": "REL-0024",
+    "source": "王次恆",
+    "target": "馮天石",
+    "type": "指導",
+    "trust": "B",
+    "notes": "HK Phil資料"
+  },
+  {
+    "id": "REL-0025",
+    "source": "李鎮",
+    "target": "馮天石",
+    "type": "指導",
+    "trust": "B",
+    "notes": "HK Phil資料"
+  },
+  {
+    "id": "REL-0026",
+    "source": "戴亞",
+    "target": "熊簫涵",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網熊簫涵資料"
+  },
+  {
+    "id": "REL-0027",
+    "source": "戴亞",
+    "target": "張瑩瑩",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網張瑩瑩資料"
+  },
+  {
+    "id": "REL-0028",
+    "source": "戴亞",
+    "target": "張科威",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網張科威資料"
+  },
+  {
+    "id": "REL-0029",
+    "source": "唐俊喬",
+    "target": "王俊侃",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網王俊侃資料"
+  },
+  {
+    "id": "REL-0030",
+    "source": "戴樹紅",
+    "target": "王俊侃",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網王俊侃資料"
+  },
+  {
+    "id": "REL-0031",
+    "source": "唐俊喬",
+    "target": "屠化冰",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網屠化冰資料"
+  },
+  {
+    "id": "REL-0032",
+    "source": "張寶慶",
+    "target": "易加義",
+    "type": "師承",
+    "trust": "A",
+    "notes": "四川音樂學院易加義資料"
+  },
+  {
+    "id": "REL-0033",
+    "source": "王其書",
+    "target": "易加義",
+    "type": "師承",
+    "trust": "A",
+    "notes": "四川音樂學院易加義資料"
+  },
+  {
+    "id": "REL-0034",
+    "source": "趙松庭",
+    "target": "易加義",
+    "type": "短期進修",
+    "trust": "A",
+    "notes": "四川音樂學院易加義資料"
+  },
+  {
+    "id": "REL-0035",
+    "source": "張寶慶",
+    "target": "川音十孔笛後輩",
+    "type": "學科傳承",
+    "trust": "B",
+    "notes": "川音十孔笛史料"
+  },
+  {
+    "id": "REL-0036",
+    "source": "王其書",
+    "target": "川音十孔笛後輩",
+    "type": "學科傳承",
+    "trust": "B",
+    "notes": "川音十孔笛史料"
+  },
+  {
+    "id": "REL-0037",
+    "source": "張紅陽",
+    "target": "王華",
+    "type": "指導",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0038",
+    "source": "向思義",
+    "target": "王華",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0039",
+    "source": "戴亞",
+    "target": "王華",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0040",
+    "source": "曾永清",
+    "target": "王華",
+    "type": "師承",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0041",
+    "source": "林文增",
+    "target": "王華",
+    "type": "指導",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0042",
+    "source": "李鎮",
+    "target": "王華",
+    "type": "指導",
+    "trust": "A",
+    "notes": "華音網王華資料"
+  },
+  {
+    "id": "REL-0043",
+    "source": "孫永志",
+    "target": "楊偉傑",
+    "type": "碩士導師 / 指導",
+    "trust": "A",
+    "notes": "港中深、華南師大資料"
+  },
+  {
+    "id": "REL-0044",
+    "source": "孫永志",
+    "target": "陳子旭",
+    "type": "師承",
+    "trust": "A",
+    "notes": "香港中樂團資料"
+  },
+  {
+    "id": "REL-0045",
+    "source": "譚寶碩",
+    "target": "陳子旭",
+    "type": "洞簫副修",
+    "trust": "A",
+    "notes": "香港中樂團資料"
+  },
+  {
+    "id": "REL-0046",
+    "source": "林斯昆",
+    "target": "陳子旭",
+    "type": "啟蒙 / 師承",
+    "trust": "A",
+    "notes": "香港中樂團資料"
+  },
+  {
+    "id": "REL-0047",
+    "source": "詹永明",
+    "target": "龔偉健",
+    "type": "碩博師承",
+    "trust": "A",
+    "notes": "龔偉健個人頁 / HKCO資料"
+  },
+  {
+    "id": "REL-0048",
+    "source": "李鎮",
+    "target": "楊偉傑",
+    "type": "指導",
+    "trust": "A",
+    "notes": "港中深資料"
+  },
+  {
+    "id": "REL-0049",
+    "source": "曾永清",
+    "target": "楊偉傑",
+    "type": "指導",
+    "trust": "A",
+    "notes": "港中深資料"
+  },
+  {
+    "id": "REL-0050",
+    "source": "蔣國基",
+    "target": "楊偉傑",
+    "type": "指導",
+    "trust": "A",
+    "notes": "港中深資料"
+  }
+]

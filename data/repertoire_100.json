@@ -1,0 +1,902 @@
+[
+  {
+    "id": "REP-0001",
+    "title": "喜相逢",
+    "creator": "馮子存改編",
+    "people": "馮子存",
+    "type": "獨奏",
+    "style": "北派、二人台",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0002",
+    "title": "五梆子",
+    "creator": "馮子存線索",
+    "people": "馮子存",
+    "type": "獨奏",
+    "style": "北派、梆子",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0003",
+    "title": "黃鶯亮翅",
+    "creator": "馮子存線索",
+    "people": "馮子存",
+    "type": "獨奏",
+    "style": "北派",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0004",
+    "title": "掛紅燈",
+    "creator": "馮子存線索",
+    "people": "馮子存",
+    "type": "獨奏",
+    "style": "北派",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0005",
+    "title": "萬年紅",
+    "creator": "馮子存線索",
+    "people": "馮子存、張健",
+    "type": "獨奏 / 重奏",
+    "style": "北派",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0006",
+    "title": "蔭中鳥",
+    "creator": "劉管樂",
+    "people": "劉管樂",
+    "type": "獨奏",
+    "style": "北派、河北民間",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0007",
+    "title": "賣菜",
+    "creator": "劉管樂",
+    "people": "劉管樂",
+    "type": "獨奏",
+    "style": "北派、山西民歌",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0008",
+    "title": "和平鴿",
+    "creator": "劉管樂",
+    "people": "劉管樂",
+    "type": "獨奏",
+    "style": "北派",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0009",
+    "title": "茉莉花",
+    "creator": "劉管樂改編線索",
+    "people": "劉管樂",
+    "type": "獨奏",
+    "style": "山西民歌",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0010",
+    "title": "鷓鴣飛",
+    "creator": "陸春齡 / 趙松庭等版本",
+    "people": "陸春齡、趙松庭",
+    "type": "獨奏",
+    "style": "南派、江南",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0011",
+    "title": "歡樂歌",
+    "creator": "陸春齡整理",
+    "people": "陸春齡",
+    "type": "獨奏",
+    "style": "江南絲竹",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0012",
+    "title": "行街",
+    "creator": "陸春齡整理",
+    "people": "陸春齡",
+    "type": "江南絲竹 / 獨奏",
+    "style": "江南絲竹",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0013",
+    "title": "中花六板",
+    "creator": "陸春齡整理",
+    "people": "陸春齡",
+    "type": "江南絲竹",
+    "style": "江南絲竹",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0014",
+    "title": "小放牛",
+    "creator": "劉森 / 陸春齡版本線索",
+    "people": "劉森、陸春齡",
+    "type": "獨奏",
+    "style": "民間改編",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0015",
+    "title": "今昔",
+    "creator": "陸春齡",
+    "people": "陸春齡",
+    "type": "獨奏",
+    "style": "南派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0016",
+    "title": "喜報",
+    "creator": "陸春齡",
+    "people": "陸春齡",
+    "type": "獨奏",
+    "style": "南派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0017",
+    "title": "江南春",
+    "creator": "陸春齡",
+    "people": "陸春齡",
+    "type": "獨奏",
+    "style": "江南",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0018",
+    "title": "早晨",
+    "creator": "趙松庭",
+    "people": "趙松庭",
+    "type": "獨奏",
+    "style": "趙派、浙江",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0019",
+    "title": "婺江風光",
+    "creator": "趙松庭",
+    "people": "趙松庭",
+    "type": "獨奏 / 與樂隊",
+    "style": "趙派、浙江",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0020",
+    "title": "三五七",
+    "creator": "趙松庭整理 / 創編",
+    "people": "趙松庭",
+    "type": "齊奏 / 獨奏",
+    "style": "浙江、戲曲",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0021",
+    "title": "幽蘭逢春",
+    "creator": "趙松庭、曹星",
+    "people": "趙松庭",
+    "type": "獨奏",
+    "style": "趙派、崑曲",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0022",
+    "title": "採茶忙",
+    "creator": "趙松庭",
+    "people": "趙松庭",
+    "type": "獨奏",
+    "style": "浙江",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0023",
+    "title": "秋湖月夜",
+    "creator": "俞遜發、彭正元",
+    "people": "俞遜發",
+    "type": "獨奏",
+    "style": "南北融合、意境",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0024",
+    "title": "匯流",
+    "creator": "俞遜發",
+    "people": "俞遜發",
+    "type": "笛子與樂隊",
+    "style": "當代音響",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0025",
+    "title": "琅琊神韻",
+    "creator": "俞遜發",
+    "people": "俞遜發",
+    "type": "獨奏 / 與樂隊",
+    "style": "當代、意境",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0026",
+    "title": "赤日",
+    "creator": "俞遜發",
+    "people": "俞遜發",
+    "type": "獨奏",
+    "style": "特殊技法",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0027",
+    "title": "苗嶺的早晨",
+    "creator": "移植 / 口笛版本",
+    "people": "俞遜發",
+    "type": "口笛",
+    "style": "口笛",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0028",
+    "title": "牡丹亭",
+    "creator": "俞遜發、吳華線索",
+    "people": "俞遜發",
+    "type": "協奏 / 組曲",
+    "style": "昆曲",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0029",
+    "title": "牧民新歌",
+    "creator": "簡廣易、王志偉線索",
+    "people": "簡廣易",
+    "type": "獨奏 / 協奏",
+    "style": "草原",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0030",
+    "title": "山村迎親人",
+    "creator": "簡廣易",
+    "people": "簡廣易",
+    "type": "獨奏",
+    "style": "民間風格",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0031",
+    "title": "鄉村小景",
+    "creator": "劉森",
+    "people": "劉森",
+    "type": "獨奏",
+    "style": "抒情",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0032",
+    "title": "牧笛",
+    "creator": "劉森",
+    "people": "劉森",
+    "type": "獨奏",
+    "style": "抒情",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0033",
+    "title": "帕米爾的春天",
+    "creator": "李大同",
+    "people": "李大同",
+    "type": "獨奏",
+    "style": "新疆、塔吉克",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0034",
+    "title": "水鄉船歌",
+    "creator": "蔣國基",
+    "people": "蔣國基",
+    "type": "獨奏",
+    "style": "江南水鄉",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0035",
+    "title": "春滿水鄉",
+    "creator": "蔣國基",
+    "people": "蔣國基",
+    "type": "獨奏",
+    "style": "江南水鄉",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0036",
+    "title": "采桑曲",
+    "creator": "蔣國基",
+    "people": "蔣國基",
+    "type": "獨奏",
+    "style": "江南",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0037",
+    "title": "憶江南",
+    "creator": "蔣國基",
+    "people": "蔣國基",
+    "type": "獨奏",
+    "style": "江南",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0038",
+    "title": "大青山下",
+    "creator": "南維德、李鎮",
+    "people": "李鎮",
+    "type": "獨奏",
+    "style": "草原笛派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0039",
+    "title": "走西口",
+    "creator": "李鎮",
+    "people": "李鎮",
+    "type": "協奏 / 獨奏",
+    "style": "草原、二人台",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0040",
+    "title": "鄂爾多斯的春天",
+    "creator": "李鎮",
+    "people": "李鎮",
+    "type": "獨奏",
+    "style": "草原",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0041",
+    "title": "草原的思念",
+    "creator": "李鎮",
+    "people": "李鎮",
+    "type": "低音笛",
+    "style": "草原、樂器改革",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0042",
+    "title": "涼山春",
+    "creator": "胡結續",
+    "people": "胡結續",
+    "type": "獨奏",
+    "style": "巴蜀 / 彝族線索",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0043",
+    "title": "情系日月潭",
+    "creator": "胡結續",
+    "people": "胡結續",
+    "type": "獨奏",
+    "style": "巴蜀 / 臺灣題材",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0044",
+    "title": "阿詩瑪敘事詩",
+    "creator": "易加義、張寶慶、易柯",
+    "people": "易加義、張寶慶",
+    "type": "協奏",
+    "style": "十孔笛、雲南題材",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0045",
+    "title": "三峽隨想曲",
+    "creator": "王其書、黃虎威",
+    "people": "王其書",
+    "type": "協奏",
+    "style": "十孔笛、長江",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0046",
+    "title": "西域行",
+    "creator": "易加義",
+    "people": "易加義",
+    "type": "十孔笛",
+    "style": "西域",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0047",
+    "title": "秦川抒懷",
+    "creator": "馬迪",
+    "people": "馬迪",
+    "type": "獨奏",
+    "style": "長安、西北",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0048",
+    "title": "塞上風情",
+    "creator": "馬迪",
+    "people": "馬迪",
+    "type": "獨奏",
+    "style": "西北",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0049",
+    "title": "大漠",
+    "creator": "馬迪",
+    "people": "馬迪",
+    "type": "獨奏",
+    "style": "西北",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0050",
+    "title": "沂河歡歌",
+    "creator": "曲祥",
+    "people": "曲祥",
+    "type": "獨奏",
+    "style": "山東笛派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0051",
+    "title": "列車奔向北京",
+    "creator": "曲祥",
+    "people": "曲祥",
+    "type": "獨奏",
+    "style": "山東笛派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0052",
+    "title": "走進快活嶺",
+    "creator": "曲祥",
+    "people": "曲祥",
+    "type": "獨奏",
+    "style": "山東笛派",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0053",
+    "title": "草原巡邏兵",
+    "creator": "曾永清",
+    "people": "曾永清",
+    "type": "獨奏",
+    "style": "北派 / 草原",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0054",
+    "title": "麥收",
+    "creator": "曾永清",
+    "people": "曾永清",
+    "type": "獨奏",
+    "style": "北派",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0055",
+    "title": "沂蒙山歌",
+    "creator": "曾永清改編",
+    "people": "曾永清、王華",
+    "type": "獨奏",
+    "style": "山東民歌",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0056",
+    "title": "秦川情",
+    "creator": "曾永清",
+    "people": "曾永清、戴亞",
+    "type": "重奏 / 獨奏",
+    "style": "西北",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0057",
+    "title": "陌上花開",
+    "creator": "待查",
+    "people": "戴亞",
+    "type": "協奏曲",
+    "style": "當代竹笛",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0058",
+    "title": "胡旋舞",
+    "creator": "待查",
+    "people": "戴亞",
+    "type": "協奏曲",
+    "style": "西域 / 當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0059",
+    "title": "雪意斷橋",
+    "creator": "待查",
+    "people": "戴亞",
+    "type": "協奏曲",
+    "style": "當代竹笛",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0060",
+    "title": "空中花園",
+    "creator": "待查",
+    "people": "戴亞",
+    "type": "協奏曲",
+    "style": "當代竹笛",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0061",
+    "title": "滿園春",
+    "creator": "戴亞",
+    "people": "戴亞",
+    "type": "笛子與樂隊",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0062",
+    "title": "山野情",
+    "creator": "戴亞",
+    "people": "戴亞",
+    "type": "笛子與樂隊",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0063",
+    "title": "花泣",
+    "creator": "張維良",
+    "people": "張維良、張健",
+    "type": "協奏 / 獨奏",
+    "style": "當代",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0064",
+    "title": "竹夢",
+    "creator": "張維良",
+    "people": "張維良",
+    "type": "舞蹈 / 音樂",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0065",
+    "title": "山村小景",
+    "creator": "劉森 / 張維良改編線索",
+    "people": "張維良、劉森",
+    "type": "獨奏",
+    "style": "抒情",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0066",
+    "title": "貂蟬敘事",
+    "creator": "王溪線索",
+    "people": "王溪",
+    "type": "作品",
+    "style": "戲曲 / 敘事",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0067",
+    "title": "楚頌",
+    "creator": "李博禪",
+    "people": "張瑩瑩",
+    "type": "竹笛與民族管弦樂",
+    "style": "楚文化",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0068",
+    "title": "巴楚行",
+    "creator": "待查",
+    "people": "張瑩瑩",
+    "type": "獨奏",
+    "style": "巴楚風格",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0069",
+    "title": "愁空山",
+    "creator": "郭文景",
+    "people": "唐俊喬、王俊侃",
+    "type": "協奏曲",
+    "style": "當代",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0070",
+    "title": "飛歌",
+    "creator": "待查",
+    "people": "王俊侃",
+    "type": "協奏曲",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0071",
+    "title": "竹枝詞",
+    "creator": "待查",
+    "people": "王俊侃、屠化冰",
+    "type": "重奏 / 協奏",
+    "style": "當代",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0072",
+    "title": "笛域千秋",
+    "creator": "待查",
+    "people": "王俊侃",
+    "type": "協奏 / 重奏",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0073",
+    "title": "笛韻天籟",
+    "creator": "唐俊喬團隊",
+    "people": "唐俊喬",
+    "type": "民族器樂劇",
+    "style": "舞台創新",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0074",
+    "title": "二凡",
+    "creator": "趙派曲目線索",
+    "people": "吳樟華、蔡拯",
+    "type": "獨奏",
+    "style": "趙派 / 戲曲",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0075",
+    "title": "王昭君",
+    "creator": "吳樟華線索",
+    "people": "吳樟華",
+    "type": "協奏曲",
+    "style": "歷史題材",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0076",
+    "title": "竹韻",
+    "creator": "吳樟華線索",
+    "people": "吳樟華",
+    "type": "協奏曲",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0077",
+    "title": "貂蟬",
+    "creator": "吳樟華、陳加斌",
+    "people": "陳加斌、吳樟華",
+    "type": "協奏曲",
+    "style": "歷史題材",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0078",
+    "title": "長生殿・寫意",
+    "creator": "陳加斌 / 吳樟華線索",
+    "people": "王華",
+    "type": "協奏曲",
+    "style": "戲曲 / 歷史",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0079",
+    "title": "漁笛清幽",
+    "creator": "杜如松",
+    "people": "杜如松",
+    "type": "獨奏",
+    "style": "浙江",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0080",
+    "title": "扁舟載月",
+    "creator": "杜如松",
+    "people": "杜如松",
+    "type": "獨奏",
+    "style": "浙江",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0081",
+    "title": "雁南飛",
+    "creator": "杜如松",
+    "people": "杜如松",
+    "type": "獨奏",
+    "style": "浙江",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0082",
+    "title": "竺緣",
+    "creator": "杜如松",
+    "people": "杜如松",
+    "type": "獨奏",
+    "style": "浙江",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0083",
+    "title": "燃",
+    "creator": "周晴",
+    "people": "周晴",
+    "type": "當代 / 跨界",
+    "style": "新音樂",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0084",
+    "title": "香江印象",
+    "creator": "龔偉健",
+    "people": "龔偉健",
+    "type": "套曲",
+    "style": "香港",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0085",
+    "title": "幽篁清韻",
+    "creator": "龔偉健",
+    "people": "龔偉健",
+    "type": "作品",
+    "style": "香港 / 當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0086",
+    "title": "海風・竹夢",
+    "creator": "待查",
+    "people": "龔偉健",
+    "type": "竹笛奏鳴曲",
+    "style": "香港 / 臺灣",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0087",
+    "title": "陝北四章",
+    "creator": "程大兆",
+    "people": "孫永志",
+    "type": "笛子協奏曲",
+    "style": "西北",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0088",
+    "title": "巴楚風情",
+    "creator": "鍾明信",
+    "people": "孫永志",
+    "type": "笛子協奏曲",
+    "style": "巴楚",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0089",
+    "title": "蒼",
+    "creator": "楊青",
+    "people": "孫永志",
+    "type": "笛子協奏曲",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0090",
+    "title": "白蛇傳",
+    "creator": "鄭濟民、羅偉倫",
+    "people": "孫永志",
+    "type": "笛子協奏曲",
+    "style": "戲曲 / 傳說",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0091",
+    "title": "遐方怨",
+    "creator": "孫永志、周煜國合作",
+    "people": "孫永志",
+    "type": "作品",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0092",
+    "title": "觀海河",
+    "creator": "待查",
+    "people": "王次恆",
+    "type": "笛子與樂隊",
+    "style": "當代",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0093",
+    "title": "燕歸來",
+    "creator": "待查",
+    "people": "王次恆",
+    "type": "獨奏",
+    "style": "抒情",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0094",
+    "title": "雲之戀",
+    "creator": "林文增",
+    "people": "林文增",
+    "type": "排簫",
+    "style": "排簫",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0095",
+    "title": "花之夢",
+    "creator": "林文增",
+    "people": "林文增",
+    "type": "排簫",
+    "style": "排簫",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0096",
+    "title": "苗山飛簫",
+    "creator": "林文增",
+    "people": "林文增",
+    "type": "排簫",
+    "style": "民族風格",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0097",
+    "title": "吳音粵韻",
+    "creator": "張健",
+    "people": "張健",
+    "type": "協奏曲專場",
+    "style": "地域 / 跨界",
+    "status": "已入庫"
+  },
+  {
+    "id": "REP-0098",
+    "title": "自然",
+    "creator": "張健線索",
+    "people": "張健",
+    "type": "奧運音樂",
+    "style": "跨界",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0099",
+    "title": "樂春",
+    "creator": "待查",
+    "people": "孟曉潔",
+    "type": "笛子與樂隊",
+    "style": "當代",
+    "status": "需查證"
+  },
+  {
+    "id": "REP-0100",
+    "title": "西施",
+    "creator": "待查",
+    "people": "熊簫涵",
+    "type": "竹笛協奏曲",
+    "style": "歷史題材",
+    "status": "需查證"
+  }
+]
