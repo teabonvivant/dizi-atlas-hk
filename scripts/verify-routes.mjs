@@ -14,6 +14,8 @@ const requiredFiles = [
   "app/research/page.tsx",
   "app/research/reports/[id]/page.tsx",
   "app/database/page.tsx",
+  "app/styles/page.tsx",
+  "app/instruments/page.tsx",
   "app/expert-team/page.tsx"
   ,"app/search/page.tsx"
   ,"app/error.tsx"

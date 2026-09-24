@@ -9,7 +9,7 @@ const groups: {label:string;href?:string;links?:[string,string][]}[] = [
  {label:"曲目導聽",href:"/repertoire"},
  {label:"名家索引",href:"/masters"},
  {label:"竹笛札記",href:"/journal"},
- {label:"研究與資料",links:[["專題研究","/research"],["資料庫","/database"],["關於知識庫","/about"]]}
+ {label:"研究與資料",links:[["專題研究","/research"],["流派與地域","/styles"],["樂器形制改良","/instruments"],["資料庫","/database"],["關於知識庫","/about"]]}
 ]
 const current=(path:string,href:string)=>path===href||path.startsWith(href+"/")
 export function SiteHeader(){

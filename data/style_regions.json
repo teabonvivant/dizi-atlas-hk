@@ -51,9 +51,12 @@
   {
     "name": "草原笛派",
     "features": "蒙古族歌唱性、二人台、開闊音域與草原意象",
-    "people": "李鎮、簡廣易線索",
+    "people": "李鎮",
     "works": "《牧民新歌》《大青山下》《走西口》",
-    "research": "草原題材、低音笛與樂器改革"
+    "research": "草原題材、低音笛與樂器改革",
+    "sources": [
+      { "title": "臺灣博碩士論文知識加值系統：李鎮笛子藝術探討", "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22104PCCU0817005%22.&searchmode=basic" }
+    ]
   },
   {
     "name": "川音十孔笛",
@@ -85,16 +88,24 @@
   },
   {
     "name": "臺灣竹笛",
-    "features": "國樂教育、保存研究、兩岸名家交流",
-    "people": "林谷珍、劉富吉等待擴展",
-    "works": "《玉笛飛聲》相關曲目",
-    "research": "臺灣學位論文、國樂團曲目與保存研究"
+    "features": "以院校教學、師承交流、出版與音樂會構成多條閱讀線索；不同世代與院團各有實踐。",
+    "people": "林谷珍、劉富吉",
+    "works": "《玉笛飛聲》《茶鄉春景》《遙思》",
+    "research": "院校課程、演奏出版與竹笛師承交流",
+    "sources": [
+      { "title": "臺南應用科技大學：劉富吉講師", "url": "https://music.tut.edu.tw/p/404-1074-6503.php?Lang=zh-tw" },
+      { "title": "四川音樂學院：易加義談十孔笛與赴臺交流", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }
+    ]
   },
   {
     "name": "海外竹笛",
-    "features": "北美、歐洲、東南亞教學與華樂團傳播",
-    "people": "丁健、陳濤等待擴展",
-    "works": "整理中",
-    "research": "海外中樂團、跨文化教學"
+    "features": "海外傳播包括院校授課、青年國樂團、演出與社群教育；各地組織和教學脈絡並不相同。",
+    "people": "丁健、陳濤",
+    "works": "《丁健笛曲選》《中國笛韻》",
+    "research": "海外院校、青年國樂團及華人社群的教學與演出",
+    "sources": [
+      { "title": "California Youth Chinese Symphony：丁健", "url": "https://www.uscycs.org/jian-ding.html" },
+      { "title": "Bard College：陳濤", "url": "https://www.bard.edu/faculty/tao-chen" }
+    ]
   }
 ]

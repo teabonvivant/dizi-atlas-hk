@@ -10,7 +10,6 @@ import { DataTable } from "@/components/site/data-table"
 import { getRepertoire, getStyleRegions } from "@/lib/data"
 import { repertoireListeningLine, styleDigest } from "@/lib/content"
 import { findRepertoireProfessorGuide, professorSources } from "@/lib/professor-guides"
-import { publicStatus } from "@/lib/utils"
 
 function pickCoreTitles() {
   return ["喜相逢", "蔭中鳥", "鷓鴣飛", "行街", "早晨", "牧民新歌", "秦川情", "秦川抒懷", "花泣", "愁空山"]
@@ -111,9 +110,8 @@ export default function RepertoirePage() {
               people: item.people,
               type: item.type,
               style: item.style,
-              status: publicStatus(item.status)
             }))}
-            columns={["id", "title", "creator", "people", "type", "style", "status"]}
+            columns={["id", "title", "creator", "people", "type", "style"]}
           />
         </div>
       </section>

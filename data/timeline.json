@@ -1,9 +1,10 @@
 [
   {
     "year": "1904",
-    "event": "馮子存出生線索",
+    "event": "馮子存出生於河北陽原。",
     "people": "馮子存",
-    "topic": "北派竹笛"
+    "topic": "北派竹笛",
+    "sources": [{ "title": "河北經濟日報：紀念馮子存誕辰120周年", "url": "https://www.hebjjrb.cn/system/2024/12/26/102015396.shtml" }]
   },
   {
     "year": "1918",
@@ -36,12 +37,6 @@
     "topic": "北派"
   },
   {
-    "year": "1943",
-    "event": "陸春齡整理 / 演奏《歡樂歌》線索",
-    "people": "陸春齡",
-    "topic": "江南絲竹舞台化"
-  },
-  {
     "year": "1944",
     "event": "簡廣易出生；曾永清出生",
     "people": "簡廣易、曾永清",
@@ -55,69 +50,78 @@
   },
   {
     "year": "1951",
-    "event": "劉管樂調入天津音樂工作團",
+    "event": "劉管樂調入天津音樂工作團，擔任笛子、管子與嗩吶獨奏演員。",
     "people": "劉管樂",
-    "topic": "院團化"
+    "topic": "院團化",
+    "sources": [{ "title": "中國民族音樂資料館：劉管樂", "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E5%8A%89%E7%AE%A1%E6%A8%82/" }]
   },
   {
     "year": "1953",
-    "event": "劉管樂開始專門從事笛子演奏；川音十孔笛早期學習線索",
+    "event": "劉管樂開始專門從事笛子演奏；川音學生開始選修十孔笛。",
     "people": "劉管樂、張寶慶、王其書",
-    "topic": "專業化、十孔笛"
+    "topic": "專業化、十孔笛",
+    "sources": [
+      { "title": "中國民族音樂資料館：劉管樂", "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E5%8A%89%E7%AE%A1%E6%A8%82/" },
+      { "title": "四川音樂學院：川音十孔笛發展", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }
+    ]
   },
   {
     "year": "1954",
-    "event": "川音十孔笛教學正式納入竹笛專業線索",
+    "event": "十孔笛正式納入四川音樂學院竹笛專業教學。",
     "people": "張寶慶、王其書",
-    "topic": "樂器改革"
+    "topic": "樂器改革",
+    "sources": [{ "title": "四川音樂學院：川音十孔笛發展", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }]
   },
   {
     "year": "1955",
-    "event": "曾永清考入中央音樂學院附中；王鐵錘世界青年聯歡節獲獎線索",
+    "event": "曾永清考入中央音樂學院附中；王鐵錘獲世界青年聯歡節民間器樂四重奏二等獎及笛子獨奏三等獎。",
     "people": "曾永清、王鐵錘",
-    "topic": "院校化、國際演出"
+    "topic": "院校化、國際演出",
+    "sources": [
+      { "title": "華音網：曾永清", "url": "https://www.huain.com/musician/zengyongqing/599.html" },
+      { "title": "中央民族樂團：王鐵錘生平", "url": "https://www.cnto.net.cn/ccno/ytgg/202511/d5f06b7fb3484f8fa99f9fbee1bcdcc4.shtml" }
+    ]
   },
   {
-    "year": "1959",
-    "event": "《馮子存笛子曲選》出版線索；簡廣易考入中央音樂學院附中",
-    "people": "馮子存、簡廣易",
-    "topic": "曲集、教育"
+    "year": "1958",
+    "event": "《馮子存笛子曲選》由人民音樂出版社出版。",
+    "people": "馮子存",
+    "topic": "曲集與出版",
+    "sources": [{ "title": "《聽賞中國音樂》：〈五梆子〉出版資料", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" }]
   },
   {
     "year": "1960",
-    "event": "俞遜發考入上海民族樂團線索",
+    "event": "俞遜發考入上海民族樂團。",
     "people": "俞遜發",
-    "topic": "上海院團"
+    "topic": "上海院團",
+    "sources": [{ "title": "中國文化大學機構典藏：俞遜發笛子藝術研究", "url": "https://irlib.pccu.edu.tw/retrieve/48905/gsweb6683.pdf" }]
   },
   {
     "year": "1964",
-    "event": "馮子存調入中國音樂學院線索",
+    "event": "馮子存由中央歌舞團調入中國音樂學院任教。",
     "people": "馮子存",
-    "topic": "院校教育"
+    "topic": "院校教育",
+    "sources": [{ "title": "馮子存誕辰120周年紀念資料", "url": "https://www.sohu.com/a/830019931_121124717" }]
   },
   {
     "year": "1971",
-    "event": "俞遜發研發口笛線索",
+    "event": "俞遜發研製口笛，開拓小型笛種的演奏可能。",
     "people": "俞遜發",
-    "topic": "樂器創新"
+    "topic": "樂器創新",
+    "sources": [{ "title": "中國文化大學機構典藏：俞遜發笛子藝術研究", "url": "https://irlib.pccu.edu.tw/retrieve/48905/gsweb6683.pdf" }]
   },
   {
     "year": "1976",
-    "event": "蔣國基以《水鄉船歌》在全國器樂比賽成名線索",
+    "event": "蔣國基以《水鄉船歌》在全國器樂比賽嶄露頭角。",
     "people": "蔣國基",
-    "topic": "江南水鄉風格"
+    "topic": "江南水鄉風格",
+    "sources": [{ "title": "華音網：蔣國基與《水鄉船歌》", "url": "https://www.huain.com/video/dizi/sxcg/2701.html" }]
   },
   {
     "year": "1977",
     "event": "易加義考入四川音樂學院",
     "people": "易加義",
     "topic": "川音十孔笛"
-  },
-  {
-    "year": "1979",
-    "event": "馮子存出席全國第四次文代會並任音協常務理事線索",
-    "people": "馮子存",
-    "topic": "藝術地位"
   },
   {
     "year": "1980",
@@ -127,15 +131,17 @@
   },
   {
     "year": "1982",
-    "event": "林文增獲首屆全國民族器樂獨奏比賽一等獎；易加義畢業留校；《阿詩瑪敘事詩》獲獎線索",
-    "people": "林文增、易加義",
-    "topic": "比賽、十孔笛"
+    "event": "易加義、張寶慶與作曲家易柯合作創作《阿詩瑪敘事詩》，作品使用十二平均律。",
+    "people": "易加義、張寶慶",
+    "topic": "十孔笛與作品",
+    "sources": [{ "title": "四川音樂學院：〈阿詩瑪敘事詩〉與十孔笛", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }]
   },
   {
     "year": "1984",
-    "event": "王次恆畢業於中央音樂學院並入中央民族樂團；《秋湖月夜》創作獲獎線索",
-    "people": "王次恆、俞遜發",
-    "topic": "院團、作品"
+    "event": "俞遜發與彭正元創作《秋湖月夜》，作品獲全國民族器樂作品評選一等獎。",
+    "people": "俞遜發",
+    "topic": "竹笛作品",
+    "sources": [{ "title": "中國文化大學機構典藏：俞遜發笛子藝術研究", "url": "https://irlib.pccu.edu.tw/retrieve/48905/gsweb6683.pdf" }]
   },
   {
     "year": "1988",
@@ -151,21 +157,30 @@
   },
   {
     "year": "1990",
-    "event": "戴亞八孔笛研製成功；劉管樂逝世",
+    "event": "戴亞研製的八孔笛完成；劉管樂逝世。",
     "people": "戴亞、劉管樂",
-    "topic": "樂器改革"
+    "topic": "樂器改革",
+    "sources": [
+      { "title": "中央音樂學院：戴亞人物資料", "url": "https://www.ccom.edu.cn/info/16531/222341.htm" },
+      { "title": "中國民族音樂資料館：劉管樂", "url": "https://chinesemusics.com/zh_cn/2023/08/31/%E5%8A%89%E7%AE%A1%E6%A8%82/" }
+    ]
   },
   {
     "year": "1991",
-    "event": "詹永明訪問臺灣；俞遜發《中國竹笛》出版線索",
+    "event": "詹永明赴臺交流演出；俞遜發與胡錫敏合著《中國竹笛》在臺灣出版。",
     "people": "詹永明、俞遜發",
-    "topic": "兩岸交流、專書"
+    "topic": "兩岸交流與出版",
+    "sources": [
+      { "title": "杭州國際音樂節：詹永明赴臺交流資料", "url": "https://corsivacdncontent.blob.core.windows.net/sco/20230827_SCMF.pdf" },
+      { "title": "中國文化大學機構典藏：俞遜發笛子藝術研究", "url": "https://irlib.pccu.edu.tw/retrieve/48905/gsweb6683.pdf" }
+    ]
   },
   {
     "year": "1997",
-    "event": "孫永志加入香港中樂團並任笛子首席；詹永明移居新加坡任教線索",
-    "people": "孫永志、詹永明",
-    "topic": "香港 / 海外"
+    "event": "孫永志加入香港中樂團並擔任笛子首席。",
+    "people": "孫永志",
+    "topic": "香港中樂團",
+    "sources": [{ "title": "香港中樂團：孫永志", "url": "https://www.hkco.org/tc/Other-Members/Sun-Yongzhi.html" }]
   },
   {
     "year": "2000",
@@ -181,9 +196,10 @@
   },
   {
     "year": "2004",
-    "event": "唐俊喬上海音樂學院教師頁早期資料整理；陳子旭加入香港中樂團",
-    "people": "唐俊喬、陳子旭",
-    "topic": "院校、香港"
+    "event": "陳子旭加入香港中樂團，展開樂團演奏工作。",
+    "people": "陳子旭",
+    "topic": "香港中樂團",
+    "sources": [{ "title": "香港中樂團：陳子旭", "url": "https://www.hkco.org/tc/Other-Members/Chan-Chi-Yuk.html" }]
   },
   {
     "year": "2005",
@@ -199,9 +215,13 @@
   },
   {
     "year": "2008",
-    "event": "戴亞《八孔笛》教程出版線索；張維良參與北京奧運音樂創作；陸春齡為江南絲竹國家級非遺傳承人",
-    "people": "戴亞、張維良、陸春齡",
-    "topic": "改良笛、非遺"
+    "event": "戴亞出版《八孔笛——新改良竹笛應用教程》；陸春齡成為江南絲竹國家級非遺代表性傳承人。",
+    "people": "戴亞、陸春齡",
+    "topic": "改良笛與非遺",
+    "sources": [
+      { "title": "中央音樂學院：戴亞人物資料", "url": "https://www.ccom.edu.cn/info/16531/222341.htm" },
+      { "title": "中國非物質文化遺產網：陸春齡", "url": "https://www.ihchina.cn/ccr_detail/892.html" }
+    ]
   },
   {
     "year": "2009",
@@ -211,9 +231,10 @@
   },
   {
     "year": "2012",
-    "event": "熊簫涵CCTV民族器樂大賽總冠軍；陳子旭與陸春齡同台線索",
-    "people": "熊簫涵、陳子旭",
-    "topic": "青年演奏、香港交流"
+    "event": "熊簫涵獲2012年CCTV民族器樂大賽非職業組吹奏類總冠軍。",
+    "people": "熊簫涵",
+    "topic": "青年演奏",
+    "sources": [{ "title": "華音網：熊簫涵演奏與比賽資料", "url": "https://www.huain.com/video/dizi/xxf/3794.html?noplayer=&reffer=1" }]
   },
   {
     "year": "2013",
@@ -229,27 +250,37 @@
   },
   {
     "year": "2015",
-    "event": "趙松庭竹笛國際藝術中心成立；張健《吳音粵韻》專輯出版線索",
-    "people": "趙松庭、張健",
-    "topic": "研究平台、錄音"
+    "event": "趙松庭竹笛國際藝術中心在浙江音樂學院（籌）成立。",
+    "people": "趙松庭",
+    "topic": "研究平台",
+    "sources": [{ "title": "文化和旅遊部：趙松庭竹笛國際藝術中心成立", "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/zj/201511/t20151119_786065.htm" }]
   },
   {
     "year": "2017",
-    "event": "陳子旭任香港中樂團笛子助理首席；唐俊喬竹笛樂團獲文華獎組合獎線索",
+    "event": "陳子旭任香港中樂團笛子助理首席；唐俊喬竹笛樂團獲全國青少年民族器樂教育教學成果展組合最高獎（文華獎）。",
     "people": "陳子旭、唐俊喬",
-    "topic": "香港、樂團"
+    "topic": "香港與樂團",
+    "sources": [
+      { "title": "香港中樂團：陳子旭", "url": "https://www.hkco.org/tc/Other-Members/Chan-Chi-Yuk.html" },
+      { "title": "華音網：唐俊喬與竹笛樂團", "url": "https://www.huain.com/video/dizi/dqsx/4182.html" }
+    ]
   },
   {
     "year": "2018",
-    "event": "陸春齡逝世；楊偉傑獲中國音樂學院博士線索；唐俊喬《笛韻天籟》巡演線索",
-    "people": "陸春齡、楊偉傑、唐俊喬",
-    "topic": "傳承、博士"
+    "event": "陸春齡逝世；唐俊喬主演的竹笛器樂劇《笛韻天籟》首演並展開全國巡演。",
+    "people": "陸春齡、唐俊喬",
+    "topic": "傳承與舞台創作",
+    "sources": [
+      { "title": "上海音樂學院：陸春齡逝世消息", "url": "https://www.shcmusic.edu.cn/_t112/2018/0526/c2827a38168/page.htm" },
+      { "title": "華音網：唐俊喬及《笛韻天籟》", "url": "https://www.huain.com/video/dizi/dqsx/4182.html" }
+    ]
   },
   {
     "year": "2019",
-    "event": "曾永清逝世；馮天石於中央音樂學院任教；孟曉潔博士畢業音樂會線索",
-    "people": "曾永清、馮天石、孟曉潔",
-    "topic": "教育"
+    "event": "曾永清逝世，留下北派笛樂演奏與教學傳承。",
+    "people": "曾永清",
+    "topic": "傳承",
+    "sources": [{ "title": "中國民族音樂資料館：曾永清", "url": "https://chinesemusics.com/zh/2023/08/31/%E6%9B%BE%E6%B0%B8%E6%B8%85/" }]
   },
   {
     "year": "2020",
@@ -259,32 +290,46 @@
   },
   {
     "year": "2022",
-    "event": "《趙松庭笛派藝術經典作品集》出版線索；龔偉健「香江笛情」音樂會",
+    "event": "《趙松庭笛派藝術經典作品集》首發；龔偉健在香港中樂團舉行《香江笛情》獨奏音樂會。",
     "people": "趙松庭、龔偉健",
-    "topic": "曲集、香港"
+    "topic": "曲集與香港演出",
+    "sources": [
+      { "title": "華音網：趙松庭作品集首發", "url": "https://www.huain.com/news/dizi/2022/0106/1317.html" },
+      { "title": "香港中樂團：《香江笛情》龔偉健獨奏音樂會", "url": "https://www.hkco.org/tc/Concerts/For-The-Love-Of-Dizi-And-Hong-Kong---Dizi-Concert-By-Ricky-Kung-Wai-Kin.html" }
+    ]
   },
   {
     "year": "2023",
-    "event": "《陸春齡竹笛藝術經典作品集》出版線索；陳加斌、吳樟華原創作品音樂會",
+    "event": "《陸春齡竹笛藝術經典作品集》新書推介；陳加斌、吳樟華竹笛原創作品音樂會於杭州舉行。",
     "people": "陸春齡、陳加斌、吳樟華",
-    "topic": "曲集、趙派"
+    "topic": "曲集與趙派創作",
+    "sources": [
+      { "title": "上海音樂學院出版社：陸春齡作品集新書推介", "url": "https://www.huain.com/news/dizi/2023/1227/5944.html" },
+      { "title": "華音網：陳加斌、吳樟華原創作品音樂會", "url": "https://www.huain.com/video/album/dizi/242.html" }
+    ]
   },
   {
     "year": "2024",
-    "event": "趙松庭百年紀念系列與《趙松庭笛子藝術全集》發布線索",
+    "event": "北京舉辦馮子存誕辰120周年紀念活動；《一代宗師——趙松庭笛子藝術全集》舉行新書發布會。",
     "people": "趙松庭",
-    "topic": "百年紀念"
+    "topic": "名家紀念與出版",
+    "sources": [
+      { "title": "華音網：馮子存誕辰120周年紀念活動", "url": "https://www.huain.com/article/dizi/2026/0121/3541.html" },
+      { "title": "中國作家網：《一代宗師——趙松庭笛子藝術全集》發布", "url": "https://wyb.chinawriter.com.cn/attachment/202411/06/f814ecdb-1080-4924-95e6-fac9c92492a9.pdf" }
+    ]
   },
   {
     "year": "2025",
-    "event": "王鐵錘逝世線索；馮子存誕辰120周年活動線索",
-    "people": "王鐵錘、馮子存",
-    "topic": "紀念活動"
+    "event": "王鐵錘逝世，享年93歲。",
+    "people": "王鐵錘",
+    "topic": "北派傳承",
+    "sources": [{ "title": "中央民族樂團：王鐵錘訃告與生平", "url": "https://www.cnto.net.cn/ccno/ytgg/202511/d5f06b7fb3484f8fa99f9fbee1bcdcc4.shtml" }]
   },
   {
     "year": "2026",
-    "event": "龔偉健博士學位線索需核",
+    "event": "龔偉健獲上海音樂學院竹笛博士學位，成為該校首屆竹笛表演專業博士之一。",
     "people": "龔偉健",
-    "topic": "香港 / 上海"
+    "topic": "香港與上海音樂教育",
+    "sources": [{ "title": "龔偉健：演奏家簡介", "url": "https://kungwaikin.com/%E7%B0%A1%E4%BB%8B-biography" }]
   }
 ]

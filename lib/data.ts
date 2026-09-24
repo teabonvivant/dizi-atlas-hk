@@ -30,6 +30,7 @@ export {
 export { getLegacyPageHtml, getReport, getReportHtml, getReports } from "@/lib/data/reports"
 export {
   getRelatedLiterature,
+  getRelatedMedia,
   getRelatedRepertoire,
   getRelatedTechniques,
   getRelatedTimeline,

@@ -39,6 +39,7 @@ export type StyleRegion = Readonly<{
   people: string
   works: string
   research: string
+  sources: readonly Readonly<{ title: string; url: string }>[]
 }>
 
 export type LiteratureItem = Readonly<{
@@ -64,10 +65,24 @@ export type MediaItem = Readonly<{
   status: string
 }>
 
-export type TimelineItem = Readonly<{ year: string; event: string; people: string; topic: string }>
+export type TimelineItem = Readonly<{
+  year: string
+  event: string
+  people: string
+  topic: string
+  sources: readonly Readonly<{ title: string; url: string }>[]
+}>
 export type ResearchTopic = Readonly<{ number: string; topic: string; section: string }>
 export type Relationship = Readonly<{ id: string; source: string; target: string; type: string; trust: string; notes: string }>
-export type InstrumentReform = Readonly<{ id: string; instrument: string; people: string; purpose: string; works: string; pending: string }>
+export type InstrumentReform = Readonly<{
+  id: string
+  instrument: string
+  people: string
+  purpose: string
+  detail: string
+  works: string
+  sources: readonly Readonly<{ title: string; url: string }>[]
+}>
 export type DataRow = Readonly<Record<string, string>>
 export type ResearchReport = Readonly<{ id: string; title: string; question: string; route: string; textPreview: string }>
 export type DatabaseSet = Readonly<{ slug: string; title: string; description: string; columns: readonly string[]; rows: readonly DataRow[] }>

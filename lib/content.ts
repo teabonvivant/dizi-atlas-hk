@@ -1,5 +1,6 @@
 import type { DiziMaster, RepertoireItem, StyleRegion, Technique } from "@/lib/data"
-import { findRepertoireProfessorGuide, findTechniqueProfessorGuide } from "@/lib/professor-guides"
+import { findTechniqueProfessorGuide } from "@/lib/professor-guides"
+import { getRepertoireGuide } from "@/lib/repertoire-guide"
 import { splitValues, truncate } from "@/lib/utils"
 
 export type LearningStage = Readonly<{
@@ -61,7 +62,7 @@ export const expertRoles = [
   ["民族音樂", "把北派、南派、江南絲竹和地域樂種放回歷史與音樂現場。"],
   ["教學方法", "按初學、進階和院校程度，安排真正做得到的學習次序。"],
   ["曲目導聽", "為核心作品揀出值得細聽的段落，也交代版本之間為何不同。"],
-  ["文獻查證", "分清原始資料、研究與待查線索，正式引用前不偷步下定論。"],
+  ["文獻查證", "判清原始資料與研究的證據範圍，引用前保留可核對出處。"],
   ["人物歷史", "把生平、師承、作品和教學放回年代，不讓人物只剩一串名銜。"],
   ["錄音比較", "同曲多版本要控制音量與錄音條件，風格差異才聽得公平。"],
   ["中文編輯", "用香港讀者熟悉的流暢書面語，把專業內容寫得準確而不生硬。"],
@@ -75,11 +76,7 @@ export function masterTeachingLine(person: DiziMaster): string {
 }
 
 export function repertoireListeningLine(item: RepertoireItem): string {
-  const guide = findRepertoireProfessorGuide(item.title)
-  if (guide) return guide.firstListen
-  const style = item.style ? `它連到${item.style}` : "它適合做基礎聽辨"
-  const people = item.people ? `，可和${item.people}的演奏或教學資料一起看` : ""
-  return `${style}${people}。第一遍跟着旋律走；第二遍才記吐音、氣口、裝飾和段落如何推進。`
+  return getRepertoireGuide(item).firstListen
 }
 
 export function techniqueTeachingLine(technique: Technique): string {

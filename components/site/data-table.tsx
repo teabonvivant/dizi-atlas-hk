@@ -39,13 +39,15 @@ const columnLabels: Readonly<Record<string, string>> = {
   institution: "機構",
   priority: "優先級",
   source: "來源",
-  url: "來源連結"
-  ,features: "聲音特徵"
-  ,year: "年份"
-  ,event: "事件"
-  ,author: "作者"
-  ,performer: "演奏者"
-  ,work: "作品"
+  url: "來源連結",
+  purpose: "改良方向",
+  detail: "資料說明",
+  features: "聲音特徵",
+  year: "年份",
+  event: "事件",
+  author: "作者",
+  performer: "演奏者",
+  work: "作品"
 }
 
 export function DataTable({

@@ -3,7 +3,7 @@ import { getMasters, getRepertoire, getTechniques, getReports } from "@/lib/data
 import { journalArticles, siteUrl } from "@/lib/journal"
 
 export function GET() {
-  const routes = ["", "/start", "/repertoire", "/masters", "/techniques", "/pedagogy", "/care", "/glossary", "/journal", "/research", "/database", "/about",
+  const routes = ["", "/start", "/repertoire", "/masters", "/techniques", "/pedagogy", "/care", "/glossary", "/journal", "/research", "/styles", "/instruments", "/database", "/about",
     ...journalArticles.map(a => "/journal/" + a.slug),
     ...getMasters().map(p => "/masters/" + p.id),
     ...getRepertoire().map(p => "/repertoire/" + p.id),

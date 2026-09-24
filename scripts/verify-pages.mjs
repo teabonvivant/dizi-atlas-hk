@@ -15,6 +15,8 @@ function check(value,from){
 }
 for(const file of html){
  const text=fs.readFileSync(file,'utf8');
+ const visible=text.replace(/<(script|style|template|noscript)\b[\s\S]*?<\/\1>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/gi,' ').replace(/&amp;/gi,'&').replace(/\s+/g,' ');
+ if(/未完[，、。 ]?待補充?|資料候補|整理中|待擴展|待補資料|待查證|待查|需查證|需列入|待確認/.test(visible))errors.push({from:path.relative(root,file),error:'visible placeholder or research-status wording'});
  for(const tag of text.matchAll(/<(?:a|img|script|link|source|form)\b[^>]*>/g))for(const a of tag[0].matchAll(/\b(?:href|src|action)="([^"]+)"/g))check(a[1],file);
  for(const canonical of text.matchAll(/<link rel="canonical" href="([^"]+)"/g)){
   const url=new URL(canonical[1]);

@@ -26,6 +26,18 @@ function stringArrayField(record: Record<string, unknown>, key: string): string[
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : []
 }
 
+function sourceArrayField(record: Record<string, unknown>, key: string): { title: string; url: string }[] {
+  const value = record[key]
+  if (!Array.isArray(value)) return []
+  return value.flatMap((item) => {
+    if (typeof item !== "object" || item === null || Array.isArray(item)) return []
+    const row = recordFrom(item, key)
+    const title = stringField(row, "title")
+    const url = stringField(row, "url")
+    return title && /^https:\/\//.test(url) ? [{ title, url }] : []
+  })
+}
+
 export function parseMaster(value: unknown): DiziMaster {
   const row = recordFrom(value, "dizi_masters_50")
   return { id: stringField(row, "id"), name: stringField(row, "name"), birth_death: stringField(row, "birth_death"), region: stringField(row, "region"), roles: stringField(row, "roles"), institution: stringField(row, "institution"), style: stringField(row, "style"), priority: stringField(row, "priority"), summary: stringField(row, "summary"), works: stringArrayField(row, "works"), sources: stringArrayField(row, "sources"), source_path: stringField(row, "source_path") }
@@ -43,7 +55,7 @@ export function parseTechnique(value: unknown): Technique {
 
 export function parseStyleRegion(value: unknown): StyleRegion {
   const row = recordFrom(value, "style_regions")
-  return { name: stringField(row, "name"), features: stringField(row, "features"), people: stringField(row, "people"), works: stringField(row, "works"), research: stringField(row, "research") }
+  return { name: stringField(row, "name"), features: stringField(row, "features"), people: stringField(row, "people"), works: stringField(row, "works"), research: stringField(row, "research"), sources: sourceArrayField(row, "sources") }
 }
 
 export function parseLiterature(value: unknown): LiteratureItem {
@@ -58,7 +70,7 @@ export function parseMedia(value: unknown): MediaItem {
 
 export function parseTimeline(value: unknown): TimelineItem {
   const row = recordFrom(value, "timeline")
-  return { year: stringField(row, "year"), event: stringField(row, "event"), people: stringField(row, "people"), topic: stringField(row, "topic") }
+  return { year: stringField(row, "year"), event: stringField(row, "event"), people: stringField(row, "people"), topic: stringField(row, "topic"), sources: sourceArrayField(row, "sources") }
 }
 
 export function parseResearchTopic(value: unknown): ResearchTopic {
@@ -73,5 +85,5 @@ export function parseRelationship(value: unknown): Relationship {
 
 export function parseInstrumentReform(value: unknown): InstrumentReform {
   const row = recordFrom(value, "instrument_reforms")
-  return { id: stringField(row, "id"), instrument: stringField(row, "instrument"), people: stringField(row, "people"), purpose: stringField(row, "purpose"), works: stringField(row, "works"), pending: stringField(row, "pending") }
+  return { id: stringField(row, "id"), instrument: stringField(row, "instrument"), people: stringField(row, "people"), purpose: stringField(row, "purpose"), detail: stringField(row, "detail"), works: stringField(row, "works"), sources: sourceArrayField(row, "sources") }
 }

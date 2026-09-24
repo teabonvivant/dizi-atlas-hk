@@ -1,10 +1,11 @@
 import { splitValues } from "@/lib/utils"
-import { getLiterature, getRepertoire, getStyleRegions, getTechniques, getTimeline } from "@/lib/data/source"
-import type { DiziMaster, LiteratureItem, RepertoireItem, StyleRegion, Technique, TimelineItem } from "@/lib/data/types"
+import { getLiterature, getMedia, getRepertoire, getStyleRegions, getTechniques, getTimeline } from "@/lib/data/source"
+import type { DiziMaster, LiteratureItem, MediaItem, RepertoireItem, StyleRegion, Technique, TimelineItem } from "@/lib/data/types"
 
 export function getRelatedRepertoire(personName: string): RepertoireItem[] { return getRepertoire().filter((item) => item.people.includes(personName) || item.creator.includes(personName)) }
 export function getRelatedTechniques(personName: string): Technique[] { return getTechniques().filter((item) => item.people.includes(personName)) }
 export function getRelatedLiterature(personName: string): LiteratureItem[] { return getLiterature().filter((item) => item.people.includes(personName)) }
+export function getRelatedMedia(personName: string): MediaItem[] { return getMedia().filter((item) => item.performer.includes(personName) || item.people.includes(personName)) }
 export function getRelatedTimeline(personName: string): TimelineItem[] { return getTimeline().filter((item) => item.people.includes(personName)) }
 export function getTechniqueGroups(): readonly [string, Technique[]][] {
   const groups = new Map<string, Technique[]>()

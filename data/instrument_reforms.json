@@ -3,120 +3,161 @@
     "id": "INS-0001",
     "instrument": "調音插口笛",
     "people": "劉管樂、王國棟",
-    "purpose": "改善音準與調音便利",
-    "works": "劉管樂人物資料",
-    "pending": "研製年份、工廠資料"
+    "purpose": "讓竹笛可以作細微調音",
+    "detail": "金屬活節接在笛管之間，演奏者可微調管身長度，以應付音高隨溫度變化的情況；這是二十世紀竹笛形制改良的一個例子。",
+    "works": "",
+    "sources": [
+      { "title": "《聽賞中國音樂》：二十世紀吹管樂器改良", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" }
+    ]
   },
   {
     "id": "INS-0002",
     "instrument": "七孔、八孔、九孔笛",
     "people": "劉管樂",
-    "purpose": "擴展半音與調性",
-    "works": "劉管樂資料",
-    "pending": "實物與使用曲目"
+    "purpose": "擴展半音指法與演奏調性",
+    "detail": "多孔形制嘗試擴闊傳統六孔笛的半音處理方式。不同方案各有取捨，實際使用須連同指法設計和曲目需要判斷。",
+    "works": "",
+    "sources": [
+      { "title": "《聽賞中國音樂》：二十世紀吹管樂器改良", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" },
+      { "title": "四川音樂學院：易加義教授談竹笛形制與十孔笛", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }
+    ]
   },
   {
     "id": "INS-0003",
     "instrument": "八孔笛",
     "people": "戴亞",
-    "purpose": "舞台半音化與協奏曲需求",
-    "works": "《八孔笛》教程",
-    "pending": "指法表、作品清單"
+    "purpose": "適應半音化演奏與協奏曲舞台",
+    "detail": "中央音樂學院記載，八孔笛於1990年研製成功；戴亞其後編寫應用教程，並推動多部竹笛協奏曲的委約與首演。",
+    "works": "《八孔笛——新改良竹笛應用教程》《陌上花開》《胡旋舞》",
+    "sources": [
+      { "title": "中央音樂學院：戴亞人物資料", "url": "https://www.ccom.edu.cn/info/16531/222341.htm" }
+    ]
   },
   {
     "id": "INS-0004",
     "instrument": "十孔笛",
     "people": "沈文毅、張寶慶、王其書、易加義",
-    "purpose": "十二平均律、轉調、半音",
-    "works": "《阿詩瑪敘事詩》《三峽隨想曲》",
-    "pending": "形制圖、川音史料"
+    "purpose": "擴展半音與轉調能力",
+    "detail": "四川音樂學院的院系史料記載，沈文毅研製十孔笛，1954年納入竹笛專業教學；易加義、張寶慶與作曲家易柯於1982年合作創作《阿詩瑪敘事詩》，使用十二平均律。",
+    "works": "《阿詩瑪敘事詩》《三峽隨想曲》《西域行》",
+    "sources": [
+      { "title": "四川音樂學院：易加義教授談十孔笛歷史與曲目", "url": "https://www.sccm.edu.cn/jx_myx/show-77.html" }
+    ]
   },
   {
     "id": "INS-0005",
     "instrument": "口笛",
     "people": "俞遜發",
-    "purpose": "開拓高音小型笛種與特殊音色",
+    "purpose": "以小型笛種探索高音音色",
+    "detail": "一項學位論文記載，俞遜發於1971年研製口笛，1973年首次登台演奏；白誠仁於1974年為口笛寫成《苗嶺的早晨》，由俞遜發首演。",
     "works": "《苗嶺的早晨》口笛版",
-    "pending": "首演、製作規格"
+    "sources": [
+      { "title": "中國文化大學機構典藏：俞遜發笛子藝術研究", "url": "https://irlib.pccu.edu.tw/retrieve/48905/gsweb6683.pdf" }
+    ]
   },
   {
     "id": "INS-0006",
     "instrument": "排笛",
     "people": "趙松庭",
-    "purpose": "擴展音域與舞台音色",
-    "works": "趙松庭資料",
-    "pending": "實物照片"
+    "purpose": "把多支不同音高的笛管組合成一件樂器",
+    "detail": "趙松庭把不同調的笛管組合成排笛，讓演奏者在同一件樂器上轉換音色與音域。這種形制也拓展了竹笛獨奏舞台的視覺和聲音安排。",
+    "works": "《婺江風光》",
+    "sources": [
+      { "title": "《聽賞中國音樂》：中國竹笛改革例子", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" },
+      { "title": "浙江文化信息網：趙松庭的樂器研究", "url": "https://www.zjcnt.net/article/2006-03-16/2006031616491121.html" }
+    ]
   },
   {
     "id": "INS-0007",
-    "instrument": "低音笛",
-    "people": "趙松庭、李鎮、蔣國基",
-    "purpose": "補足低音聲部",
-    "works": "《草原的思念》",
-    "pending": "樂隊使用案例"
+    "instrument": "低音笛與低音大笛",
+    "people": "趙松庭、李鎮",
+    "purpose": "補足竹笛家族的低音聲部",
+    "detail": "低音笛把竹笛音色帶進較低音域，為獨奏和合奏增加新的聲部選擇。不同演奏者的製作方案並不相同，名稱不能代替具體形制資料。",
+    "works": "",
+    "sources": [
+      { "title": "華音網：趙松庭的樂器探索與傳承", "url": "https://www.huain.com/news/dizi/2020/1104/172.html" },
+      { "title": "中國文化大學機構典藏：李鎮笛子藝術研究", "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22104PCCU0817005%22.&searchmode=basic" }
+    ]
   },
   {
     "id": "INS-0008",
     "instrument": "弯管笛",
     "people": "趙松庭",
-    "purpose": "改善大型笛演奏姿態",
-    "works": "趙松庭資料",
-    "pending": "實物與曲目"
+    "purpose": "增加管身長度，同時方便持奏",
+    "detail": "浙江文化資料將弯管笛列為趙松庭的樂器研究之一：管身轉彎可增加長度，又不必把樂器伸得過長，令持奏較方便。",
+    "works": "",
+    "sources": [
+      { "title": "浙江文化信息網：趙松庭的樂器研究", "url": "https://www.zjcnt.net/article/2006-03-16/2006031616491121.html" },
+      { "title": "華音網：趙松庭的樂器探索與傳承", "url": "https://www.huain.com/news/dizi/2020/1104/172.html" }
+    ]
   },
   {
     "id": "INS-0009",
-    "instrument": "骨笛 / 雁飛篪",
-    "people": "趙松庭",
-    "purpose": "古樂器復原與新音色",
-    "works": "趙松庭資料",
-    "pending": "博物館與錄音"
+    "instrument": "骨笛與雁飛篪",
+    "people": "趙松庭、蔣國基",
+    "purpose": "由古代吹奏器與同管雙笛探索新音色",
+    "detail": "浙江文化資料記述趙松庭研究骨笛及同管雙笛，後者又稱雁笛；蔣國基曾以講座介紹相關樂器的傳承。兩者的構造、材料和用途各異，不應混作同一種笛。",
+    "works": "",
+    "sources": [
+      { "title": "浙江文化信息網：趙松庭的樂器研究", "url": "https://www.zjcnt.net/article/2006-03-16/2006031616491121.html" },
+      { "title": "華音網：蔣國基講述骨笛、弯管笛與雁飛篪", "url": "https://www.huain.com/news/dizi/2020/1104/172.html" }
+    ]
   },
   {
     "id": "INS-0010",
     "instrument": "巨笛",
     "people": "蔣國基",
-    "purpose": "擴大音響與視覺效果",
-    "works": "巨笛作品",
-    "pending": "科技成果資料"
+    "purpose": "擴展笛管形制，探索大型竹笛的演奏效果",
+    "detail": "蔣國基把巨笛納入竹笛演奏與樂器探索，呈現他對大型笛管形制與演奏效果的試驗。",
+    "works": "",
+    "sources": [
+      { "title": "華音網：水鄉神笛蔣國基", "url": "https://www.huain.com/article/dizi/2022/0714/1066.html" },
+      { "title": "中國音樂檔案：蔣國基", "url": "https://chinesemusics.com/zh/2023/08/31/%E8%94%A3%E5%9C%8B%E5%9F%BA/" }
+    ]
   },
   {
     "id": "INS-0011",
-    "instrument": "巨簫",
-    "people": "蔣國基",
-    "purpose": "低音簫聲部",
-    "works": "蔣國基資料",
-    "pending": "實物與錄音"
+    "instrument": "十一孔新笛",
+    "people": "丁燈林（丁西林）",
+    "purpose": "以增加音孔拓展半音演奏能力",
+    "detail": "《聽賞中國音樂》把十一孔新笛列作二十世紀早期中國吹管樂器改良的例子，並記錄設計與製作者為丁燈林（丁西林）。",
+    "works": "",
+    "sources": [
+      { "title": "《聽賞中國音樂》：二十世紀吹管樂器改良", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" }
+    ]
   },
   {
     "id": "INS-0012",
     "instrument": "雙人笛",
     "people": "蔣國基",
-    "purpose": "舞台表演與音響實驗",
-    "works": "蔣國基資料",
-    "pending": "實物"
+    "purpose": "讓兩位演奏者共同操作笛管與音高變化",
+    "detail": "蔣國基曾把越劇唱腔笛曲改編為雙人笛演奏。兩位演奏者分擔吹奏與按管，讓滑音及聲部配合成為舞台表演的一部分。",
+    "works": "《令哦調》改編版本",
+    "sources": [
+      { "title": "華音網：水鄉神笛蔣國基", "url": "https://www.huain.com/article/dizi/2022/0714/1066.html" }
+    ]
   },
   {
     "id": "INS-0013",
     "instrument": "雙笛膜低音大笛",
     "people": "李鎮",
-    "purpose": "低音與共鳴改良",
-    "works": "《草原的思念》",
-    "pending": "專利與錄音"
+    "purpose": "以低音音域和雙膜結構擴展笛族聲音",
+    "detail": "中國文化大學機構典藏的一篇學位論文記載，李鎮研製低音雙膜大笛，並以環氧樹脂（玻璃鋼）製作笛管系列；作者指出此材料可改善竹笛乾裂問題。",
+    "works": "",
+    "sources": [
+      { "title": "臺灣博碩士論文知識加值系統：李鎮笛子藝術探討", "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22104PCCU0817005%22.&searchmode=basic" }
+    ]
   },
   {
     "id": "INS-0014",
-    "instrument": "玻璃鋼笛",
+    "instrument": "環氧樹脂（玻璃鋼）笛",
     "people": "李鎮",
-    "purpose": "材料穩定、音準與耐用",
-    "works": "1991內蒙古科技進步獎線索",
-    "pending": "專利資料"
-  },
-  {
-    "id": "INS-0015",
-    "instrument": "管笛、變音笛",
-    "people": "胡玉林線索",
-    "purpose": "當代改良",
-    "works": "待擴展",
-    "pending": "需列入B級人物擴展"
+    "purpose": "以複合材料減低竹材乾裂風險",
+    "detail": "相關學位論文把環氧樹脂笛管列為李鎮的樂器改革成果，並指出其設計希望保留笛子的傳統音色，同時改善竹材受乾燥影響而開裂的問題。",
+    "works": "",
+    "sources": [
+      { "title": "臺灣博碩士論文知識加值系統：李鎮笛子藝術探討", "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22104PCCU0817005%22.&searchmode=basic" },
+      { "title": "《聽賞中國音樂》：吹管樂器的材料改良", "url": "https://openbookshongkong.com/wp-content/uploads/2025/01/%E8%81%BD%E8%B3%9E%E4%B8%AD%E5%9C%8B%E9%9F%B3%E6%A8%82_9789888528110.pdf" }
+    ]
   }
 ]

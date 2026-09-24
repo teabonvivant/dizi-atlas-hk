@@ -16,9 +16,9 @@ const expected = [
   ["literature_seed.json", 35],
   ["media_seed.json", 30],
   ["relationships_seed.json", 50],
-  ["instrument_reforms.json", 15],
+  ["instrument_reforms.json", 14],
   ["style_regions.json", 14],
-  ["timeline.json", 48]
+  ["timeline.json", 46]
 ]
 
 const forbidden = ["嚗", "銝", "蝡", "雿", "摨", "撣", "蝺", "鈭", "憭", "隤", "�"]
@@ -42,6 +42,33 @@ for (const [file, count] of expected) {
   const rows = readJson(file)
   if (!Array.isArray(rows) || rows.length !== count) {
     throw new Error(`${file} expected ${count} records, got ${Array.isArray(rows) ? rows.length : "not-array"}`)
+  }
+}
+
+const candidateLanguage = /未完[，、。 ]?待補充?|資料候補|整理中|待擴展|待補資料|待查證|待查|需查證|需列入|待確認/
+for (const [index, item] of readJson("instrument_reforms.json").entries()) {
+  if (Object.hasOwn(item, "pending")) throw new Error(`instrument_reforms row ${index + 1} retains a pending field`)
+  for (const field of ["instrument", "people", "purpose", "detail"]) {
+    if (typeof item[field] !== "string" || item[field].trim().length < 2 || candidateLanguage.test(item[field])) {
+      throw new Error(`instrument_reforms ${item.id}.${field} is empty or contains placeholder language`)
+    }
+  }
+  if (!Array.isArray(item.sources) || item.sources.length === 0 || item.sources.some(source => !/^https:\/\//.test(source.url) || !source.title)) {
+    throw new Error(`instrument_reforms ${item.id} needs a named HTTPS source`)
+  }
+}
+for (const item of readJson("style_regions.json")) {
+  for (const field of ["name", "features", "people", "works", "research"]) {
+    if (candidateLanguage.test(item[field] ?? "")) throw new Error(`style_regions ${item.name}.${field} contains placeholder language`)
+  }
+  if (/線索|线索/.test(item.people)) throw new Error(`style_regions ${item.name}.people contains unverified attribution wording`)
+}
+for (const [index, item] of readJson("timeline.json").entries()) {
+  if (!item.year?.trim() || !item.event?.trim() || candidateLanguage.test(item.event) || /線索|线索/.test(item.event)) {
+    throw new Error(`timeline row ${index + 1} is empty or contains research-status wording`)
+  }
+  if (item.sources && item.sources.some(source => !/^https:\/\//.test(source.url) || !source.title)) {
+    throw new Error(`timeline row ${index + 1} contains an invalid named source`)
   }
 }
 
